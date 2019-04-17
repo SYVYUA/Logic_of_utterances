@@ -16,7 +16,6 @@ import com.hitomi.cmlibrary.OnMenuSelectedListener;
 
 public class MainActivity extends AppCompatActivity {
 
-    //sgsg
     Intent intent = null;
     Button suppBut;
     @Override

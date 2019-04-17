@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".learning.practice.PracticeLesson">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/pract1Task"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/pract1"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pract1Expl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pract1Task"
+            android:layout_centerHorizontal="true"
+            android:text="@string/taskforPract"
+            android:textColor="#000000" />
+
+
+        <LinearLayout
+            android:id="@+id/firstBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pract1Expl"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subtask1" />
+
+        </LinearLayout>
+
+        <Space
+            android:id="@+id/firstSpace"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/firstBox" />
+
+        <!-- початок формули в яку закидують елементи-->
+
+        <LinearLayout
+            android:id="@+id/afterEx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/firstSpace"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/subbox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/varP"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/target1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/box11"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#FFEB3B" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/subbox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/qANDr"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/target2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/box22"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#FFEB3B" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/subbox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/orQ"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/target3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/box33"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#FFEB3B" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/subbox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rBracket"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Кінець формули в яку закидують елементи-->
+
+        <LinearLayout
+            android:id="@+id/target222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/and"
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:gravity="center"
+                android:text="@string/anD" />
+
+            <TextView
+                android:id="@+id/or"
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:gravity="center"
+                android:text="@string/oR" />
+
+            <TextView
+                android:id="@+id/ifl"
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:gravity="center"
+                android:text="@string/arrowLeft" />
+
+            <TextView
+                android:id="@+id/notP"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text="@string/varNotP" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/testAfter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <RadioGroup
+                android:id="@+id/rGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="invisible">
+
+
+                <RadioButton
+                    android:id="@+id/ch1P"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ch1P" />
+
+                <RadioButton
+                    android:id="@+id/ch2P"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ch2P" />
+
+                <RadioButton
+                    android:id="@+id/ch3P"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ch3P" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/answTest1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/answQwestion"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:id="@+id/nextBut2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/check"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.e.diplomamaster">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".learning.practice.SecondPracticeLesson4"></activity>
+        <activity android:name=".learning.practice.SecondPracticeLesson3" />
+        <activity android:name=".learning.practice.SecondPracticeLesson2" />
+        <activity android:name=".learning.practice.SecondPracticeLesson1" />
+        <activity android:name=".learning.practice.PracticeLesson3" />
+        <activity android:name=".learning.practice.PracticeLesson2" />
+        <activity android:name=".learning.practice.PracticeLesson" />
+        <activity android:name=".learning.lessons.TenthLesson" />
+        <activity android:name=".learning.lessons.NinthLesson" />
+        <activity android:name=".learning.lessons.EighthLesson" />
+        <activity android:name=".learning.lessons.SeventhLesson" />
+        <activity android:name=".learning.lessons.SixthLesson" />
+        <activity android:name=".learning.lessons.FifthLesson" />
+        <activity android:name=".learning.lessons.ForthLesson" />
+        <activity android:name=".learning.lessons.ThirdLesson" />
+        <activity android:name=".learning.lessons.SecondLesson" />
+        <activity android:name=".learning.lessons.FirstLesson" />
+        <activity android:name=".learning.LearningActivity" />
+        <activity android:name=".setting.SettingS" />
+        <activity android:name=".aboutCreators.AboutUs" />
+        <activity android:name=".supportformulas.SupportFormula" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

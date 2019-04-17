@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">DiplomaMaster</string>
+    <string name="name_prepod">Черненко Оксана Олексіївна</string>
+    <string name="status_prepod">Доцент, кандидат фізико-математичних наук</string>
+    <string name="my_name">Сивокінь Олександр Юрійович</string>
+    <string name="my_status">Магістр</string>
+    <string name="firstLesson">Тестові завдання</string>
+    <string name="secondLesson">Практичні завдання</string>
+    <string name="check">Перевірити</string>
+    <string name="nametest1">Які з речень є висловлюванням?</string>
+    <string name="test1">1. На вулиці дощ. "\n" 2.Викладач не прийшов на урок. "\n" 3. Коли прийде Сергій? "\n" 4. Читай уважно! </string>
+    <string name="ch_1">1</string>
+    <string name="ch_2">2</string>
+    <string name="ch_3">3</string>
+    <string name="ch_4">4</string>
+    <string name="logic_operation">Логічні операції</string>
+    <string name="logicAND">Логічне і -</string>
+    <string name="logicOR">Логічне або -</string>
+    <string name="logicIF">Якщо,..то -</string>
+    <string name="task2">Перетягніть знаки стосовно їхнім значенням</string>
+    <string name="task3">Вкажіть формулу закону суперечності</string>
+    <string name="task3var">1) p <![CDATA[&]]> !p = F "\n" 2) p || !p = F "\n" 3) p || q = q || p "\n" 4)p <![CDATA[&]]> p = p</string>
+    <string name="task4">p → q = !p || q це</string>
+    <string name="task4var">1) Правило еквівалентності "\n" 2) Правило імплікації "\n" 3) Правило комутативності "\n" 4) Немає вірної відповіді</string>
+    <string name="task5">p ~ q = (p → q) <![CDATA[&]]> (q → p) це</string>
+    <string name="task5var">1) Правило імплікації "\n" 2) Правило комутативності "\n" 3) Правило еквівалентності "\n" 4) Закон суперечності</string>
+    <string name="task6">Результатом застосування закону дистрибутивності буде наступна формула</string>
+    <string name="task6var">1) (!q || (!p <![CDATA[&]]> q) ~ r "\n" 2) (q || (!p <![CDATA[&]]> p) ~ q "\n" 3) (q || (!p <![CDATA[&]]> p) → q "\n" 4) (p <![CDATA[&]]> (!p || p) → q</string>
+    <string name="task7">«Якщо вологість велика та температура висока, то ми не почуваємо себе добре» представлено складним висловлюванням. Де воно?</string>
+    <string name="task7var">1) ((p <![CDATA[&]]> q) → (!r)) "\n" 2) p → q <![CDATA[&]]> !q "\n" 3) p <![CDATA[&]]> q → !r "\n" 4) (p <![CDATA[&]]> r → !q</string>
+    <string name="task8">Атом у логікі висловлювань це —</string>
+    <string name="task8var">1) найменша частина виразу "\n" 2) елемент рівняння "\n" 3) формула "\n" 4) правильна відповідь відсутня</string>
+    <string name="task9">Застосувати правило імплікації до формули p→q:</string>
+    <string name="task9var">1) !p || q "\n" 2) !p <![CDATA[&]]> q "\n" 3) p || !q "\n" 4) p <![CDATA[&]]> q</string>
+    <string name="task10">Сформулюйте назву закону:"\n" !!p = p</string>
+    <string name="task10var">1) закон подвійного заперечення "\n" 2) закон усунення імплікації "\n" 3) закон еквівалентності "\n" 4) закон подвійної рівності</string>
+    <string name="pract1">Доведіть еквівалентність формули:</string>
+    <string name="taskforPract">p → (q <![CDATA[&]]> r) і (p → q) <![CDATA[&]]> (p → r)</string>
+    <string name="subtask1">Запишіть послідовність перетворень і виберіть назву використаного закону або правила</string>
+    <string name="varBr">(</string>
+    <string name="varBrB">)</string>
+    <string name="varBr2">(!p ||</string>
+    <string name="varPBr">(p </string>
+    <string name="varP">p</string>
+    <string name="varR">r</string>
+    <string name="varEqua">~</string>
+    <string name="varQ">q</string>
+    <string name="varNotNotq">!!q</string>
+    <string name="varNotQ">!q</string>
+    <string name="varNotP">!p</string>
+    <string name="arrowLeft">→</string>
+    <string name="oR">||</string>
+    <string name="equaL">=</string>
+    <string name="anD"><![CDATA[&]]></string>
+    <string name="qANDr">(q <![CDATA[&]]> r) =</string>
+    <string name="orQ">|| (q</string>
+    <string name="rBracket">r)</string>
+    <string name="ch1P">За правилом усунення імплікації</string>
+    <string name="ch2P">За законом дистрибутивності</string>
+    <string name="ch2P2">За законом дистрибутиності 3a</string>
+    <string name="ch3P">За правилом комутативності</string>
+    <string name="secch3P">За законом комутативності 1а</string>
+    <string name="secCh2P">За законом подвійного заперечення 6</string>
+    <string name="ch1P3">За правилом уведення імплікації</string>
+    <string name="taskforPract2">p → (q <![CDATA[&]]> r) = !p || (q <![CDATA[&]]> r)</string>
+    <string name="answQwestion">Показати варіанти відповіді</string>
+    <string name="taskforPract3">(!p || q) <![CDATA[&]]> (!p || r )</string>
+    <string name="explainForSecPr1">p → q та !q → !p</string>
+    <string name="explainForSecPr2">p → q = !p || q</string>
+    <string name="explainForSecPr3">q || !p</string>
+    <string name="explainForSecPr4">!!q || !p</string>
+
+    <!--Для вспливаючих вікон-->
+    <string name="promt_1">Не вірно! Висловлюваннями можуть бути тільки розповідні речення.</string>
+    <string name="promt_2">Не вірно! Зробіть правильну відповідність.</string>
+    <string name="promt_3">Не вірно! В цьому законі не може бути ||, а також повинно бути логічне заперечення.</string>
+    <string name="promt_4">Не вірно! Це, правило імплікації!</string>
+    <string name="promt_5">Не вірно! Дивись знак ~.</string>
+    <string name="promt_6">Не вірно! Правильна відповідь  2.</string>
+    <string name="promt_7">Не вірно! Перша частина висловлювання має бути в дужках!</string>
+    <string name="promt_8">Не вірно! Це не елемент і не частина.</string>
+    <string name="promt_9">Не вірно! → змінюється на ||.</string>
+    <string name="promt_10">Не вірно! Дивись на перші два знаки!</string>
+    <!--Для вибору задач-->
+    <string name="practProblem">Практичні завдання</string>
+    <string name="choiseProblem">Виберіть № задачі</string>
+    <string name="problem_1">Задача №1</string>
+    <string name="problem_2">Задача №2</string>
+    <!--Для переходу до нових завдань і меню-->
+    <string name="not_choise">Ви нічого не вибрали</string>
+    <string name="return_to_menu">Повернутися до головного меню.</string>
+    <string name="what_do">Що роибмо далі?</string>
+    <string name="title_test">Вітаю. Ви розв’язали тести!</string>
+    <string name="title_problem">Вітаю. Ви розв’язали задачу!</string>
+
+</resources>

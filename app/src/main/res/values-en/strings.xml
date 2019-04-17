@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">DiplomaMaster</string>
+    <string name="name_prepod">Chernenko Oksana</string>
+    <string name="status_prepod">Associate professor, candidate of physical and mathematical sciences</string>
+    <string name="my_name">Syvokin Oleksandr</string>
+    <string name="my_status">Master</string>
+    <string name="firstLesson">Test tasks</string>
+    <string name="secondLesson">Practice tasks</string>
+    <string name="check">Verify</string>
+    <string name="nametest1">Which of the sentences is a statement?</string>
+    <string name="test1">1. It rain on street. "\n" 2.Teacher did not come to the lesson. "\n" 3. When will Sergey come? "\n" 4. Read carefully! </string>
+    <string name="ch_1">1</string>
+    <string name="ch_2">2</string>
+    <string name="ch_3">3</string>
+    <string name="ch_4">4</string>
+    <string name="logic_operation">Logical operations</string>
+    <string name="logicAND">Logical and -</string>
+    <string name="logicOR">Logical or -</string>
+    <string name="logicIF">if,..then -</string>
+    <string name="task2">Drag the characters to their values</string>
+    <string name="task3">Specify the formula of the law of contradiction</string>
+    <string name="task3var">1) p <![CDATA[&]]> !p = F "\n" 2) p || !p = F "\n" 3) p || q = q || p "\n" 4)p <![CDATA[&]]> p = p</string>
+    <string name="task4">p → q = !p || q це</string>
+    <string name="task4var">1) The rule of equivalence "\n" 2) The rule of implication "\n" 3) The rule of commutativity "\n" 4) There is no correct answer</string>
+    <string name="task5">p ~ q = (p → q) <![CDATA[&]]> (q → p) it</string>
+    <string name="task5var">1) The rule of implication "\n" 2) The rule of commutativity "\n" 3) The rule of equivalence "\n" 4) The law of contradiction</string>
+    <string name="task6">The result of using the law of distribution is the following formula...</string>
+    <string name="task6var">1) (!q || (!p <![CDATA[&]]> q) ~ r "\n" 2) (q || (!p <![CDATA[&]]> p) ~ q "\n" 3) (q || (!p <![CDATA[&]]> p) → q "\n" 4) (p <![CDATA[&]]> (!p || p) → q</string>
+    <string name="task7">«If the wet is high and the temperature is high, then we do not feel good "is represented by a complex statement. Where is it?</string>
+    <string name="task7var">1) ((p <![CDATA[&]]> q) → (!r)) "\n" 2) p → q <![CDATA[&]]> !q "\n" 3) p <![CDATA[&]]> q → !r "\n" 4) (p <![CDATA[&]]> r → !q</string>
+    <string name="task8">Atom in the logic of utterances is -</string>
+    <string name="task8var">1) the smallest part of the expression "\n" 2) element of the equation "\n" 3) formula "\n" 4) There is no correct answer</string>
+    <string name="task9">Apply the rule of implication to the formula p→q:</string>
+    <string name="task9var">1) !p || q "\n" 2) !p <![CDATA[&]]> q "\n" 3) p || !q "\n" 4) p <![CDATA[&]]> q</string>
+    <string name="task10">Formulate the title of the rule:"\n" !!p = p</string>
+    <string name="task10var">1) the rule of double denial "\n" 2) the rule eliminating the implication "\n" 3) the rule of equivalence "\n" 4) the rule of double equality</string>
+    <string name="pract1">Prove the equivalence of the formula:</string>
+    <string name="taskforPract">p → (q <![CDATA[&]]> r) і (p → q) <![CDATA[&]]> (p → r)</string>
+    <string name="subtask1">Write the sequence of conversions and select the name of the used law or rule</string>
+    <string name="varBr">(</string>
+    <string name="varBrB">)</string>
+    <string name="varBr2">(!p ||</string>
+    <string name="varPBr">(p </string>
+    <string name="varP">p</string>
+    <string name="varR">r</string>
+    <string name="varEqua">~</string>
+    <string name="varQ">q</string>
+    <string name="varNotNotq">!!q</string>
+    <string name="varNotQ">!q</string>
+    <string name="varNotP">!p</string>
+    <string name="arrowLeft">→</string>
+    <string name="oR">||</string>
+    <string name="equaL">=</string>
+    <string name="anD"><![CDATA[&]]></string>
+    <string name="qANDr">(q <![CDATA[&]]> r) =</string>
+    <string name="orQ">|| (q</string>
+    <string name="rBracket">r)</string>
+    <string name="ch1P">By the rule of elimination of the implication</string>
+    <string name="ch2P">By the law of distributivity</string>
+    <string name="ch2P2">By the law of distributivity 3a</string>
+    <string name="ch3P">By the rule of commutativity</string>
+    <string name="secch3P">By the law of commutativity 1а</string>
+    <string name="secCh2P">By the law of double denial 6</string>
+    <string name="ch1P3">By the rule of implantation input</string>
+    <string name="taskforPract2">p → (q <![CDATA[&]]> r) = !p || (q <![CDATA[&]]> r)</string>
+    <string name="answQwestion">Show answer options</string>
+    <string name="taskforPract3">(!p || q) <![CDATA[&]]> (!p || r )</string>
+    <string name="explainForSecPr1">p → q та !q → !p</string>
+    <string name="explainForSecPr2">p → q = !p || q</string>
+    <string name="explainForSecPr3">q || !p</string>
+    <string name="explainForSecPr4">!!q || !p</string>
+
+
+    <!--Для вспливаючих вікон-->
+    <string name="promt_1">False! Expressions can only be narrative sentences.</string>
+    <string name="promt_2">False! Make the right match.</string>
+    <string name="promt_3">False! This law can not be ||, and there must be a logical objection.</string>
+    <string name="promt_4">False! This is the rule of implication!</string>
+    <string name="promt_5">False! Look at the sign ~.</string>
+    <string name="promt_6">False! Correct answer 2.</string>
+    <string name="promt_7">False! The first part of the statement should be in bracket!</string>
+    <string name="promt_8">False! This is not an element and not a part.</string>
+    <string name="promt_9">False! → changes to ||.</string>
+    <string name="promt_10">False! Look at the first two characters!</string>
+    <!--Для вибору задач-->
+    <string name="practProblem">Practical tasks</string>
+    <string name="choiseProblem">Select task number</string>
+    <string name="problem_1">Problem №1</string>
+    <string name="problem_2">Problem №2</string>
+    <!--Для переходу до нових завдань і меню-->
+    <string name="not_choise">You have not chosen anything.</string>
+    <string name="return_to_menu">Return to the main menu.</string>
+    <string name="what_do">What will do next?</string>
+    <string name="title_test">Bravo. You have solved the tests!</string>
+    <string name="title_problem">Bravo. You have solved the problem!</string>
+</resources>

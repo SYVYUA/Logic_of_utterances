@@ -23,7 +23,6 @@
 
     <Space
         android:id="@+id/spaceOne"
-
         android:layout_width="match_parent"
         android:layout_height="50dp" />
 
@@ -31,10 +30,20 @@
         android:id="@+id/lesson_2"
         android:layout_width="250dp"
         android:layout_height="150dp"
-
-
         android:background="@drawable/gradient_for_button"
         android:text="@string/secondLesson"/>
+
+    <Space
+        android:id="@+id/spaceOne1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/lesson_3"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:background="@drawable/gradient_for_button"
+        android:text="@string/thirdLesson"/>
 
 </LinearLayout>
 

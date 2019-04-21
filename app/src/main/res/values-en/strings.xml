@@ -95,4 +95,9 @@
     <string name="what_do">What will do next?</string>
     <string name="title_test">Bravo. You have solved the tests!</string>
     <string name="title_problem">Bravo. You have solved the problem!</string>
+
+    <!--Задачі з поясненням-->
+    <string name="firstHeader">Prove logical followings of the following statements.</string>
+    <string name="firstTaskForExp">If prices rise, then the living standards are falling. If the standard of living falls, then people are dissatisfied. Prices are rising. So people are dissatisfied.</string>
+
 </resources>

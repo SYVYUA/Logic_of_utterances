@@ -99,5 +99,6 @@
     <!--Задачі з поясненням-->
     <string name="firstHeader">Prove logical followings of the following statements.</string>
     <string name="firstTaskForExp">If prices rise, then the living standards are falling. If the standard of living falls, then people are dissatisfied. Prices are rising. So people are dissatisfied.</string>
-
+    <string name="solutionBut">Solution</string>
+    <string name="solExp1">Позначимо пропозиційними буквами прості висловлювання</string>
 </resources>

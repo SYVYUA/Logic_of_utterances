@@ -7,6 +7,7 @@
     tools:context=".learning.withExplain.ExerciseWithExplain1">
 
     <LinearLayout
+        android:id="@+id/firstLay"
         android:layout_alignParentTop="true"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
@@ -38,5 +39,44 @@
             android:textColor="#000"/>
 
     </LinearLayout>
+    <Space
+        android:id="@+id/spaceFirst"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+    android:layout_below="@+id/firstLay"/>
+
+    <LinearLayout
+        android:id="@+id/butSol"
+        android:layout_below="@+id/spaceFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/solution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/solutionBut"
+            />
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/solExp1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/spaceFirst"
+    android:layout_centerHorizontal="true"
+    android:layout_marginStart="10dp">
+
+    <TextView
+        android:id="@+id/solExplain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/solExp1"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:textColor="#000"/>
+</LinearLayout>
+
 
 </RelativeLayout>

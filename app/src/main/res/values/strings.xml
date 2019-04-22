@@ -100,4 +100,10 @@
     <string name="firstTaskForExp">Якщо ціни зростають, то рівень життя спадає. Якщо рівень життя, то люди незадоволені. Ціни зростають. Отже, люди незадоволені.</string>
     <string name="solutionBut">Розв’язання</string>
     <string name="solExp1">Позначимо пропозиційними буквами прості висловлювання</string>
+    <string name="bigP">P</string>
+    <string name="bigPexp">- ціни зростають;</string>
+    <string name="bigS">S</string>
+    <string name="bigSexp">- рівень життя спадає;</string>
+    <string name="bigR">R</string>
+    <string name="bigRexp">- люди незадоволені.</string>
 </resources>

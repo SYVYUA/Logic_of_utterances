@@ -106,4 +106,9 @@
     <string name="bigSexp">- рівень життя спадає;</string>
     <string name="bigR">R</string>
     <string name="bigRexp">- люди незадоволені.</string>
+    <string name="next">Далі</string>
+    <string name="solExp11">Необхідно довести логічне слідування:</string>
+    <string name="p_s">P → S,</string>
+    <string name="s_r">S → R,</string>
+    <string name="p_r">P → R</string>
 </resources>

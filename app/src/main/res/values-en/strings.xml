@@ -107,4 +107,9 @@
     <string name="bigSexp">- life level is downing;</string>
     <string name="bigR">R</string>
     <string name="bigRexp">- люди незадоволені.</string>
+    <string name="next">Next</string>
+    <string name="solExp11">We need to explain logical follow up:</string>
+    <string name="p_s">P → S,</string>
+    <string name="s_r">S → R,</string>
+    <string name="p_r">P → R</string>
 </resources>

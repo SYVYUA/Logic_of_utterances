@@ -170,9 +170,15 @@
         </LinearLayout>
     </LinearLayout>
 
+    <Space
+        android:id="@+id/spaceAfterBut"
+        android:layout_below="@+id/leftBar"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
     <Button
         android:id="@+id/nextExp"
-        android:layout_below="@+id/leftBar"
+        android:layout_below="@+id/spaceAfterBut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/next"
@@ -258,5 +264,15 @@
 
 </LinearLayout>
 </LinearLayout>
+
+    <Button
+        android:id="@+id/nextStepExp1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
 
 </RelativeLayout>

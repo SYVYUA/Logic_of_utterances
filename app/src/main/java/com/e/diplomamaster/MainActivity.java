@@ -34,21 +34,17 @@ public class MainActivity extends AppCompatActivity {
                         if(i==0){
                             intent = new Intent(MainActivity.this, LearningActivity.class);
                             startActivity(intent);
-
                         }
                         if(i == 1){
                             intent = new Intent(MainActivity.this, SettingS.class);
                             startActivity(intent);
-
                         }
                         if (i == 2){
                             intent = new Intent(MainActivity.this, AboutUs.class);
                             startActivity(intent);
-
                         }
                     }
                 });
-
 
         suppBut = findViewById(R.id.supportBut);
         suppBut.setOnClickListener(new View.OnClickListener() {
@@ -56,11 +52,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 intent = new Intent(MainActivity.this, SupportFormula.class);
                 startActivity(intent);
-
             }
         });
-
-
-
     }
 }

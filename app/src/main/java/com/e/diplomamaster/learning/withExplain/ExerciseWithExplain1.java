@@ -1,5 +1,6 @@
 package com.e.diplomamaster.learning.withExplain;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,12 +14,14 @@ import com.e.diplomamaster.R;
 public class ExerciseWithExplain1 extends AppCompatActivity {
 
     private Button solution, nextExp;
-    private TextView solExplain, bigP, bigPexp, bigS, bigSexp, bigR, bigRexp, solExp11, p_S, s_R, p_R;
+    private TextView solExplain, bigP, bigPexp, bigS, bigSexp, bigR, bigRexp, solExp11, p_S, s_R, p_R, nextScreen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercise_with_explain1);
+
+        nextScreen = findViewById(R.id.nextStepExp1);
 
         solExp11 = findViewById(R.id.solExp11);
         p_S = findViewById(R.id.p_S);
@@ -53,6 +56,7 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 nextExp.setVisibility(View.GONE);
+                nextScreen.setVisibility(View.VISIBLE);
                 solExp11.setVisibility(View.VISIBLE);
                 p_S.setVisibility(View.VISIBLE);
                 s_R.setVisibility(View.VISIBLE);
@@ -60,14 +64,22 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
                 startAnimation2();
             }
         });
+        nextScreen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ExerciseWithExplain1.this, ExerciseWithExplain1_2.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void startAnimation2(){
         Animation animation2 = AnimationUtils.loadAnimation(this, R.anim.mytrans);
-        p_S.startAnimation(animation2);
-        s_R.startAnimation(animation2);
-        p_R.startAnimation(animation2);
+        Animation animation4 = AnimationUtils.loadAnimation(this, R.anim.bounce);
         Animation animation3 = AnimationUtils.loadAnimation(this, R.anim.myalfa);
+        p_S.startAnimation(animation2);
+        s_R.startAnimation(animation4);
+        p_R.startAnimation(animation3);
         solExp11.setAnimation(animation3);
     }
 

@@ -115,4 +115,11 @@
     <string name="firstStep">Method 1</string>
     <string name="expl1">Перевіримо що формула "\n" (P → S) || (S → R) || P → R є тавтологією.</string>
     <string name="expl1_1">Для цього достатньо побудувати таблицю істинності.</string>
+    <string name="p_s_s_r">(P → S) || (S → R)</string>
+    <string name="all_p_s_r">(P → S) || (S → R) || (P → R)</string>
+    <string name="p_s1">P → S</string>
+    <string name="s_r1">S → R</string>
+    <string name="p_r1">P → R</string>
+    <string name="bigt">T</string>
+    <string name="bigf">F</string>
 </resources>

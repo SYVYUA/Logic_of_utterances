@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_below="@+id/firstStep">
 
         <TextView
@@ -39,5 +40,92 @@
 
 
     </LinearLayout>
+    <Space
+        android:id="@+id/underFirstspace"
+        android:layout_below="@+id/firstSpace"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+    <TableLayout
+        android:id="@+id/myTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/underFirstspace"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="#000">
+
+        <TableRow
+            android:layout_margin="1dp"
+
+            android:background="#DBDBDB">
+
+            <TextView
+                android:layout_weight="0"
+                android:text="@string/bigP"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_weight="0"
+                android:text="@string/bigR"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_weight="0"
+                android:text="@string/bigS"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/p_s1"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/s_r1"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/p_s_s_r"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/p_r1"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/all_p_s_r"
+                android:textColor="#000000"
+                android:textSize="12sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:background="#fff">
+            <TextView
+                android:textColor="#000000"
+                android:text="@string/bigt"
+                android:textSize="12sp"/>
+            <TextView
+                android:textColor="#000"
+                android:text="@string/bigt"
+                android:textSize="12sp"/>
+            <TextView
+                android:textColor="#000"
+                android:text="@string/bigt"
+                android:textSize="12sp"/>
+        </TableRow>
+    </TableLayout>
 
 </RelativeLayout>

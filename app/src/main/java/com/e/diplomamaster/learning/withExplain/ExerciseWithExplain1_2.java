@@ -11,6 +11,7 @@ import com.e.diplomamaster.R;
 public class ExerciseWithExplain1_2 extends AppCompatActivity {
 
     TextView trueRow11, trueRow12, falseRow11, falseRow12;
+    boolean flag_g;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,16 +28,40 @@ public class ExerciseWithExplain1_2 extends AppCompatActivity {
             public void onClick(View v) {
                 switch (v.getId()){
                     case R.id.trueRow11:
-                        trueRow11.setBackgroundColor(Color.GREEN);
+                        if(flag_g){
+                            trueRow11.setBackgroundColor(Color.GREEN);
+                            flag_g = false;
+                    }else{
+                            trueRow11.setBackgroundColor(Color.WHITE);
+                            flag_g = true;
+                    }
                         break;
                     case R.id.trueRow12:
-                        trueRow12.setBackgroundColor(Color.GREEN);
+                        if(flag_g){
+                            trueRow12.setBackgroundColor(Color.GREEN);
+                            flag_g = false;
+                        }else{
+                            trueRow12.setBackgroundColor(Color.WHITE);
+                            flag_g = true;
+                        }
                         break;
                     case R.id.falseRow11:
-                        falseRow11.setBackgroundColor(Color.RED);
+                        if(flag_g){
+                            falseRow11.setBackgroundColor(Color.RED);
+                            flag_g = false;
+                        }else{
+                            falseRow11.setBackgroundColor(Color.WHITE);
+                            flag_g = true;
+                        }
                         break;
                     case R.id.falseRow12:
-                        falseRow12.setBackgroundColor(Color.RED);
+                        if(flag_g){
+                            falseRow12.setBackgroundColor(Color.RED);
+                            flag_g = false;
+                        }else{
+                            falseRow12.setBackgroundColor(Color.WHITE);
+                            flag_g = true;
+                        }
                         break;
                 }
             }
@@ -45,7 +70,5 @@ public class ExerciseWithExplain1_2 extends AppCompatActivity {
         trueRow12.setOnClickListener(forTrueFalse);
         falseRow11.setOnClickListener(forTrueFalse);
         falseRow12.setOnClickListener(forTrueFalse);
-
-
     }
 }

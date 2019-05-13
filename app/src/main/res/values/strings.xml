@@ -96,21 +96,21 @@
     <string name="title_problem">Вітаю. Ви розв’язали задачу!</string>
 
     <!--Задачі з поясненням-->
-    <string name="firstHeader">Довести логічне слідування вислов таких висловлень</string>
-    <string name="firstTaskForExp">Якщо ціни зростають, то рівень життя спадає. Якщо рівень життя, то люди незадоволені. Ціни зростають. Отже, люди незадоволені.</string>
+    <string name="firstHeader">Розглянемо формули F1 = (P → Q), "\n" F2 = !Q, G = !P</string>
+    <string name="firstTaskForExp">Доедемо, що формула G - логічний наслідок формул F1 і F2</string>
     <string name="solutionBut">Розв’язання</string>
-    <string name="solExp1">Позначимо пропозиційними буквами прості висловлювання</string>
+    <string name="solExp1">Спосіб 1. Скористаємося таблицями істинності, щоб показати, що формула G виконується в кожній інтерпритації, у якій виконується формула "\n" (P → Q) <![CDATA[&]]> !Q</string>
     <string name="bigP">P</string>
     <string name="bigPexp">- ціни зростають;</string>
-    <string name="bigS">S</string>
+    <string name="bigQ">Q</string>
     <string name="bigSexp">- рівень життя спадає;</string>
-    <string name="bigR">R</string>
+    <string name="notQ">!Q</string>
     <string name="bigRexp">- люди незадоволені.</string>
     <string name="next">Далі</string>
     <string name="solExp11">Необхідно довести логічне слідування:</string>
-    <string name="p_s">P → S,</string>
-    <string name="s_r">S → R,</string>
-    <string name="p_r">P → R</string>
+    <string name="p_q">P → Q</string>
+    <string name="p_q_notQ">(P → Q) <![CDATA[&]]> !Q</string>
+    <string name="notP">!P</string>
     <string name="firstStep">1-й спосіб</string>
     <string name="expl1">Перевіримо що формула "\n" (P → S) || (S → R) || P → R є тавтологією.</string>
     <string name="expl1_1">Для цього достатньо побудувати таблицю істинності.</string>

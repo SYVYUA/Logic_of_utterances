@@ -97,21 +97,21 @@
     <string name="title_problem">Bravo. You have solved the problem!</string>
 
     <!--Задачі з поясненням-->
-    <string name="firstHeader">Prove logical followings of the following statements.</string>
-    <string name="firstTaskForExp">If prices rise, then the living standards are falling. If the standard of living falls, then people are dissatisfied. Prices are rising. So people are dissatisfied.</string>
+    <string name="firstHeader">Розглянемо формули F1 = (P → Q), "\n" F2 = !Q, G = !P</string>
+    <string name="firstTaskForExp">Доедемо, що формула G - логічний наслідок формул F1 і F2</string>
     <string name="solutionBut">Solution</string>
-    <string name="solExp1">Позначимо пропозиційними буквами прості висловлювання</string>
+    <string name="solExp1">Спосіб 1. Скористаємося таблицями істинності, щоб показати, що формула G виконується в кожній інтерпритації, у якій виконується формула "\n" (P → Q) <![CDATA[&]]> !Q</string>
     <string name="bigP">P</string>
     <string name="bigPexp">- prices is growing;</string>
-    <string name="bigS">S</string>
+    <string name="bigQ">Q</string>
     <string name="bigSexp">- life level is downing;</string>
-    <string name="bigR">R</string>
+    <string name="notQ">!Q</string>
     <string name="bigRexp">- люди незадоволені.</string>
     <string name="next">Next</string>
     <string name="solExp11">We need to explain logical follow up:</string>
-    <string name="p_s">P → S,</string>
-    <string name="s_r">S → R,</string>
-    <string name="p_r">P → R</string>
+    <string name="p_q">P → Q</string>
+    <string name="p_q_notQ">(P → Q) <![CDATA[&]]> !Q</string>
+    <string name="notP">!P</string>
     <string name="firstStep">Method 1</string>
     <string name="expl1">Перевіримо що формула "\n" (P → S) || (S → R) || P → R є тавтологією.</string>
     <string name="expl1_1">Для цього достатньо побудувати таблицю істинності.</string>

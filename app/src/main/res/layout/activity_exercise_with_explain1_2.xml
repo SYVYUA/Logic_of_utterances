@@ -222,58 +222,69 @@
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow13"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow13"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow14"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
+                    android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
-                    android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
                     android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
-                    android:gravity="center"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow14"
+                    android:layout_weight="1"
                     android:background="#fff"
-                    />
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow15"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow15"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
         </TableRow>
         <!--true or false-->
@@ -312,95 +323,112 @@
                 android:layout_margin="1dp">
 
                 <TextView
-                    android:gravity="center"
+                    android:id="@+id/trueRow21"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
                     android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigt"
                     android:textColor="#000000"
-                    android:textSize="11sp"
-                    android:layout_marginEnd="1dp"/>
+                    android:textSize="11sp" />
 
                 <TextView
+                    android:id="@+id/falseRow21"
                     android:layout_weight="1"
                     android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigf"
                     android:textColor="#000000"
-                    android:gravity="center"
                     android:textSize="11sp" />
             </TableRow>
 
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow22"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow22"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow23"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow23"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow24"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
+                    android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
-                    android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
                     android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
-                    android:gravity="center"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow24"
+                    android:layout_weight="1"
                     android:background="#fff"
-                    />
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow25"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow25"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
         </TableRow>
         <!--true or false-->
@@ -438,95 +466,112 @@
                 android:layout_margin="1dp">
 
                 <TextView
-                    android:gravity="center"
+                    android:id="@+id/trueRow31"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
                     android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigt"
                     android:textColor="#000000"
-                    android:textSize="11sp"
-                    android:layout_marginEnd="1dp"/>
+                    android:textSize="11sp" />
 
                 <TextView
+                    android:id="@+id/falseRow31"
                     android:layout_weight="1"
                     android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigf"
                     android:textColor="#000000"
-                    android:gravity="center"
                     android:textSize="11sp" />
             </TableRow>
 
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow32"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow32"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow33"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow33"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow34"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
+                    android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
-                    android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
                     android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
-                    android:gravity="center"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow34"
+                    android:layout_weight="1"
                     android:background="#fff"
-                    />
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow35"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow35"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
         </TableRow>
         <!--true or false-->
@@ -565,95 +610,112 @@
                 android:layout_margin="1dp">
 
                 <TextView
-                    android:gravity="center"
+                    android:id="@+id/trueRow41"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
                     android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigt"
                     android:textColor="#000000"
-                    android:textSize="11sp"
-                    android:layout_marginEnd="1dp"/>
+                    android:textSize="11sp" />
 
                 <TextView
+                    android:id="@+id/falseRow41"
                     android:layout_weight="1"
                     android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigf"
                     android:textColor="#000000"
-                    android:gravity="center"
                     android:textSize="11sp" />
             </TableRow>
 
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow42"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow42"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow43"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow43"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow44"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
+                    android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
-                    android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
                     android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
-                    android:gravity="center"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow44"
+                    android:layout_weight="1"
                     android:background="#fff"
-                    />
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow45"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow45"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
         </TableRow>
         <!--true or false-->
@@ -692,95 +754,112 @@
                 android:layout_margin="1dp">
 
                 <TextView
-                    android:gravity="center"
+                    android:id="@+id/trueRow51"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
                     android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigt"
                     android:textColor="#000000"
-                    android:textSize="11sp"
-                    android:layout_marginEnd="1dp"/>
+                    android:textSize="11sp" />
 
                 <TextView
+                    android:id="@+id/falseRow51"
                     android:layout_weight="1"
                     android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigf"
                     android:textColor="#000000"
-                    android:gravity="center"
                     android:textSize="11sp" />
             </TableRow>
 
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow52"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow52"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow53"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow53"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow54"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
+                    android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
-                    android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
                     android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
-                    android:gravity="center"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow54"
+                    android:layout_weight="1"
                     android:background="#fff"
-                    />
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow55"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow55"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
         </TableRow>
         <!--true or false-->
@@ -819,95 +898,112 @@
                 android:layout_margin="1dp">
 
                 <TextView
-                    android:gravity="center"
+                    android:id="@+id/trueRow61"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
                     android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigt"
                     android:textColor="#000000"
-                    android:textSize="11sp"
-                    android:layout_marginEnd="1dp"/>
+                    android:textSize="11sp" />
 
                 <TextView
+                    android:id="@+id/falseRow61"
                     android:layout_weight="1"
                     android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigf"
                     android:textColor="#000000"
-                    android:gravity="center"
                     android:textSize="11sp" />
             </TableRow>
 
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow62"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow62"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow63"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow63"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow64"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
+                    android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
-                    android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
                     android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
-                    android:gravity="center"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow64"
+                    android:layout_weight="1"
                     android:background="#fff"
-                    />
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow65"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow65"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
         </TableRow>
         <!--true or false-->
@@ -946,95 +1042,112 @@
                 android:layout_margin="1dp">
 
                 <TextView
-                    android:gravity="center"
+                    android:id="@+id/trueRow71"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
                     android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigt"
                     android:textColor="#000000"
-                    android:textSize="11sp"
-                    android:layout_marginEnd="1dp"/>
+                    android:textSize="11sp" />
 
                 <TextView
+                    android:id="@+id/falseRow71"
                     android:layout_weight="1"
                     android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigf"
                     android:textColor="#000000"
-                    android:gravity="center"
                     android:textSize="11sp" />
             </TableRow>
 
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow72"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow72"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow73"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow73"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow74"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
+                    android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
-                    android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
                     android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
-                    android:gravity="center"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow74"
+                    android:layout_weight="1"
                     android:background="#fff"
-                    />
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow75"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow75"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
         </TableRow>
         <!--true or false-->
@@ -1074,95 +1187,112 @@
                 android:layout_margin="1dp">
 
                 <TextView
-                    android:gravity="center"
+                    android:id="@+id/trueRow81"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
                     android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigt"
                     android:textColor="#000000"
-                    android:textSize="11sp"
-                    android:layout_marginEnd="1dp"/>
+                    android:textSize="11sp" />
 
                 <TextView
+                    android:id="@+id/falseRow81"
                     android:layout_weight="1"
                     android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigf"
                     android:textColor="#000000"
-                    android:gravity="center"
                     android:textSize="11sp" />
             </TableRow>
 
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow82"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow82"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow83"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow83"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow84"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
+                    android:background="#fff"
+                    android:gravity="center"
                     android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
-                    android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
                     android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
-                    android:gravity="center"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow84"
+                    android:layout_weight="1"
                     android:background="#fff"
-                    />
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
             <TableRow
                 android:layout_margin="1dp">
+
                 <TextView
+                    android:id="@+id/trueRow85"
+                    android:layout_marginEnd="1dp"
                     android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigt"
-                    android:textSize="11sp"
-                    android:gravity="center"
                     android:background="#fff"
-                    android:layout_marginEnd="1dp"/>
-                <TextView
-                    android:layout_weight="1"
-                    android:textColor="#000000"
-                    android:text="@string/bigf"
-                    android:textSize="11sp"
                     android:gravity="center"
-                    android:background="#fff"/>
+                    android:text="@string/bigt"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/falseRow85"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="@string/bigf"
+                    android:textColor="#000000"
+                    android:textSize="11sp" />
             </TableRow>
         </TableRow>
         <!--true or false-->

@@ -89,725 +89,607 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/spaceSecond"
         android:layout_centerHorizontal="true"
+        android:background="#000"
         android:orientation="horizontal"
-        android:visibility="visible"
-        android:background="#000">
+        android:visibility="invisible">
 
         <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
             <!--condition Table-->
-            <TableRow
-                android:layout_margin="1dp">
+            <TableRow android:layout_margin="1dp">
 
                 <TextView
                     android:id="@+id/condition11"
                     android:layout_height="match_parent"
                     android:layout_weight="0"
                     android:background="#B9B9B9"
+                    android:gravity="center"
                     android:padding="5dp"
                     android:text="@string/bigP"
                     android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
+                    android:textSize="15sp" />
 
                 <TextView
-                    android:padding="5dp"
-                    android:layout_weight="0"
                     android:id="@+id/condition12"
                     android:layout_marginStart="1dp"
+                    android:layout_weight="0"
                     android:background="#B9B9B9"
+                    android:gravity="center"
+                    android:padding="5dp"
                     android:text="@string/bigQ"
                     android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
+                    android:textSize="15sp" />
 
                 <TextView
-                    android:layout_weight="0"
-                    android:padding="5dp"
                     android:id="@+id/condition13"
                     android:layout_marginStart="1dp"
+                    android:layout_weight="0"
                     android:background="#B9B9B9"
+                    android:gravity="center"
+                    android:padding="5dp"
                     android:text="@string/p_q"
                     android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
+                    android:textSize="15sp" />
 
                 <TextView
-                    android:layout_weight="0"
-                    android:padding="5dp"
                     android:id="@+id/condition14"
                     android:layout_marginStart="1dp"
+                    android:layout_weight="0"
                     android:background="#B9B9B9"
+                    android:gravity="center"
+                    android:padding="5dp"
                     android:text="@string/notQ"
                     android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
+                    android:textSize="15sp" />
 
                 <TextView
-                    android:layout_weight="1"
-                    android:padding="5dp"
                     android:id="@+id/condition16"
                     android:layout_marginStart="1dp"
+                    android:layout_weight="1"
                     android:background="#B9B9B9"
+                    android:gravity="center"
+                    android:padding="5dp"
                     android:text="@string/p_q_notQ"
                     android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
+                    android:textSize="15sp" />
 
                 <TextView
-                    android:layout_weight="0"
-                    android:padding="5dp"
                     android:id="@+id/condition17"
                     android:layout_marginStart="1dp"
+                    android:layout_weight="0"
                     android:background="#B9B9B9"
+                    android:gravity="center"
+                    android:padding="5dp"
                     android:text="@string/notP"
                     android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
+                    android:textSize="15sp" />
             </TableRow>
 
             <!--true or false start1-->
-            <TableRow
-                android:layout_margin="1dp">
+            <TableRow android:layout_margin="1dp">
 
                 <TextView
                     android:id="@+id/trueRow21"
                     android:layout_height="match_parent"
                     android:layout_weight="0"
                     android:background="#FFFFFF"
+                    android:gravity="center"
                     android:padding="5dp"
                     android:text="@string/bigt"
                     android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
+                    android:textSize="15sp" />
 
                 <TextView
-                    android:padding="5dp"
-                    android:layout_weight="0"
                     android:id="@+id/trueRow22"
                     android:layout_marginStart="1dp"
+                    android:layout_weight="0"
                     android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="5dp"
                     android:text="@string/bigt"
                     android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
+                    android:textSize="15sp" />
 
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow23"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow23"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow24"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow24"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow25"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow25"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow26"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow26"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
             </TableRow>
 
             <!--true or false start2-->
-            <TableRow
-                android:layout_margin="1dp">
+            <TableRow android:layout_margin="1dp">
 
                 <TextView
                     android:id="@+id/trueRow31"
                     android:layout_height="match_parent"
                     android:layout_weight="0"
                     android:background="#FFFFFF"
+                    android:gravity="center"
                     android:padding="5dp"
                     android:text="@string/bigt"
                     android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
+                    android:textSize="15sp" />
 
                 <TextView
-                    android:padding="5dp"
-                    android:layout_weight="0"
                     android:id="@+id/falseRow32"
                     android:layout_marginStart="1dp"
+                    android:layout_weight="0"
                     android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="5dp"
                     android:text="@string/bigf"
                     android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
+                    android:textSize="15sp" />
 
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow33"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow33"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow34"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow34"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow35"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow35"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow36"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow36"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
             </TableRow>
 
             <!--true or false start3-->
-            <TableRow
-                android:layout_margin="1dp">
+            <TableRow android:layout_margin="1dp">
 
                 <TextView
                     android:id="@+id/trueRow41"
                     android:layout_height="match_parent"
                     android:layout_weight="0"
                     android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/bigf"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/falseRow42"
+                    android:layout_marginStart="1dp"
+                    android:layout_weight="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
                     android:padding="5dp"
                     android:text="@string/bigt"
                     android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
-
-                <TextView
-                    android:padding="5dp"
-                    android:layout_weight="0"
-                    android:id="@+id/falseRow42"
-                    android:layout_marginStart="1dp"
-                    android:background="#FFFFFF"
-                    android:text="@string/bigf"
-                    android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
+                    android:textSize="15sp" />
 
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow43"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow43"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow44"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow44"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow45"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow45"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow46"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow46"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
             </TableRow>
 
             <!--true or false start4-->
-            <TableRow
-                android:layout_margin="1dp">
+            <TableRow android:layout_margin="1dp">
 
                 <TextView
                     android:id="@+id/trueRow51"
                     android:layout_height="match_parent"
                     android:layout_weight="0"
                     android:background="#FFFFFF"
+                    android:gravity="center"
                     android:padding="5dp"
-                    android:text="@string/bigt"
+                    android:text="@string/bigf"
                     android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
+                    android:textSize="15sp" />
 
                 <TextView
-                    android:padding="5dp"
-                    android:layout_weight="0"
                     android:id="@+id/falseRow52"
                     android:layout_marginStart="1dp"
+                    android:layout_weight="0"
                     android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="5dp"
                     android:text="@string/bigf"
                     android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
+                    android:textSize="15sp" />
 
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow53"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow53"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow54"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow54"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow55"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow55"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
 
                 <TableRow>
+
                     <TextView
-                        android:layout_marginStart="1dp"
                         android:id="@+id/trueRow56"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
                         android:padding="5dp"
                         android:text="@string/bigt"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
 
                     <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
                         android:id="@+id/falseRow56"
                         android:layout_marginStart="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
                         android:text="@string/bigf"
                         android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
+                        android:textSize="15sp" />
                 </TableRow>
             </TableRow>
-
-            <!--true or false start5-->
-            <TableRow
-                android:layout_margin="1dp">
-
-                <TextView
-                    android:id="@+id/trueRow61"
-                    android:layout_height="match_parent"
-                    android:layout_weight="0"
-                    android:background="#FFFFFF"
-                    android:padding="5dp"
-                    android:text="@string/bigt"
-                    android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
-
-                <TextView
-                    android:padding="5dp"
-                    android:layout_weight="0"
-                    android:id="@+id/falseRow62"
-                    android:layout_marginStart="1dp"
-                    android:background="#FFFFFF"
-                    android:text="@string/bigf"
-                    android:textColor="#000"
-                    android:textSize="15sp"
-                    android:gravity="center"/>
-
-
-                <TableRow>
-                    <TextView
-                        android:layout_marginStart="1dp"
-                        android:id="@+id/trueRow63"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:background="#FFFFFF"
-                        android:padding="5dp"
-                        android:text="@string/bigt"
-                        android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
-
-                    <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
-                        android:id="@+id/falseRow63"
-                        android:layout_marginStart="1dp"
-                        android:background="#FFFFFF"
-                        android:text="@string/bigf"
-                        android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
-                </TableRow>
-
-                <TableRow>
-                    <TextView
-                        android:layout_marginStart="1dp"
-                        android:id="@+id/trueRow64"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:background="#FFFFFF"
-                        android:padding="5dp"
-                        android:text="@string/bigt"
-                        android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
-
-                    <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
-                        android:id="@+id/falseRow64"
-                        android:layout_marginStart="1dp"
-                        android:background="#FFFFFF"
-                        android:text="@string/bigf"
-                        android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
-                </TableRow>
-
-                <TableRow>
-                    <TextView
-                        android:layout_marginStart="1dp"
-                        android:id="@+id/trueRow65"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:background="#FFFFFF"
-                        android:padding="5dp"
-                        android:text="@string/bigt"
-                        android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
-
-                    <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
-                        android:id="@+id/falseRow65"
-                        android:layout_marginStart="1dp"
-                        android:background="#FFFFFF"
-                        android:text="@string/bigf"
-                        android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
-                </TableRow>
-
-                <TableRow>
-                    <TextView
-                        android:layout_marginStart="1dp"
-                        android:id="@+id/trueRow66"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:background="#FFFFFF"
-                        android:padding="5dp"
-                        android:text="@string/bigt"
-                        android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
-
-                    <TextView
-                        android:padding="5dp"
-                        android:layout_weight="1"
-                        android:id="@+id/falseRow66"
-                        android:layout_marginStart="1dp"
-                        android:background="#FFFFFF"
-                        android:text="@string/bigf"
-                        android:textColor="#000"
-                        android:textSize="15sp"
-                        android:gravity="center"/>
-                </TableRow>
-            </TableRow>
-
         </TableLayout>
 
     </LinearLayout>

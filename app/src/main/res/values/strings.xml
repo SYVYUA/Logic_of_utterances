@@ -122,4 +122,6 @@
     <string name="bigt">T</string>
     <string name="bigf">F</string>
     <string name="explainForTable">Із таблиці видно, що є лише одна інтерпритація, у якій (P → Q) <![CDATA[&]]> !Q виконуєтьсяб а саме P = F, Q = F; у цій інтерпритації формула !P також виконується. Отже, за означенням формула !Р - логічний наслідок формул P → Q та !Q</string>
+    <string name="method2"><![CDATA[Скористаємося теоремою. Доведемо що формула (F1 & F2) → G загальнозначуща. Для цього побудуємо таблицю  для формули (F1 & F2) → G = ((P → Q) & !Q) → !P.]]></string>
+    <string name="method2exp">Спосіб 2.</string>
 </resources>

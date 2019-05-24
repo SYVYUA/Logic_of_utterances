@@ -16,7 +16,7 @@ import com.e.diplomamaster.R;
 public class ExerciseWithExplain1 extends AppCompatActivity {
 
     private Button solution;
-    private TextView solExplain, nextScreen, trueRow23, falseRow24, falseRow25, falseRow26, falseRow33, trueRow34, falseRow35, falseRow36, trueRow43, falseRow44, falseRow45, trueRow46, trueRow53, trueRow54, trueRow55, trueRow56;
+    private TextView explainForTable, solExplain, nextScreen, trueRow23, falseRow24, falseRow25, falseRow26, falseRow33, trueRow34, falseRow35, falseRow36, trueRow43, falseRow44, falseRow45, trueRow46, trueRow53, trueRow54, trueRow55, trueRow56;
     LinearLayout layForTable;
 
     @Override
@@ -27,6 +27,7 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
         nextScreen = findViewById(R.id.nextStepExp1);
         layForTable = findViewById(R.id.layForTable);
 
+        explainForTable = findViewById(R.id.explainForTable);
         solExplain = findViewById(R.id.solExplain);
         solution = findViewById(R.id.solution);
 
@@ -67,7 +68,8 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
         }
         solExplain.startAnimation(animation);
         layForTable.startAnimation(animation);
-        Animation animation1 = AnimationUtils.loadAnimation(this, R.anim.myrotate);
+        Animation animation1 = AnimationUtils.loadAnimation(this, R.anim.zoomin);
+        explainForTable.startAnimation(animation1);
 
     }
 }

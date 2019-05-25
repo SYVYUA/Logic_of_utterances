@@ -24,5 +24,286 @@
         android:layout_marginTop="10dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/butForTable2"
+        android:text="@string/solutionBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/layForTable2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!--condition Table-->
+            <TableRow android:layout_margin="1dp">
+
+                <TextView
+                    android:id="@+id/condition11"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:background="#B9B9B9"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/bigP"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/condition12"
+                    android:layout_marginStart="1dp"
+                    android:layout_weight="0"
+                    android:background="#B9B9B9"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/bigQ"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/condition13"
+                    android:layout_marginStart="1dp"
+                    android:layout_weight="0"
+                    android:background="#B9B9B9"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/forTable2"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+            </TableRow>
+
+            <!--true or false start1-->
+            <TableRow android:layout_margin="1dp">
+
+                <TextView
+                    android:id="@+id/trueRow21"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/bigt"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/trueRow22"
+                    android:layout_marginStart="1dp"
+                    android:layout_weight="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/bigt"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/trueRow23"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/bigt"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/falseRow23"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/bigf"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+                </TableRow>
+
+            </TableRow>
+
+            <!--true or false start2-->
+            <TableRow android:layout_margin="1dp">
+
+                <TextView
+                    android:id="@+id/trueRow31"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/bigt"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/falseRow32"
+                    android:layout_marginStart="1dp"
+                    android:layout_weight="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/bigf"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/trueRow33"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/bigt"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/falseRow33"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/bigf"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+                </TableRow>
+
+            </TableRow>
+
+            <!--true or false start3-->
+            <TableRow android:layout_margin="1dp">
+
+                <TextView
+                    android:id="@+id/trueRow41"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/bigf"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/falseRow42"
+                    android:layout_marginStart="1dp"
+                    android:layout_weight="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/bigt"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/trueRow43"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/bigt"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/falseRow43"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/bigf"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+                </TableRow>
+
+            </TableRow>
+
+            <!--true or false start4-->
+            <TableRow android:layout_margin="1dp">
+
+                <TextView
+                    android:id="@+id/trueRow51"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/bigf"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/falseRow52"
+                    android:layout_marginStart="1dp"
+                    android:layout_weight="0"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/bigf"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/trueRow53"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/bigt"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/falseRow53"
+                        android:layout_marginStart="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/bigf"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+                </TableRow>
+
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
 
 </LinearLayout>

@@ -42,7 +42,7 @@
         android:layout_gravity="center"
         android:background="#000000"
         android:orientation="vertical"
-        android:visibility="gone">
+        android:visibility="invisible">
 
         <TableLayout
             android:layout_width="wrap_content"
@@ -302,8 +302,33 @@
 
             </TableRow>
         </TableLayout>
-
-
     </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/expForTable2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/expForTable2"
+        android:textColor="#000000"
+        android:visibility="invisible"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/nextStepExp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/next"
+        android:visibility="invisible" />
 
 </LinearLayout>

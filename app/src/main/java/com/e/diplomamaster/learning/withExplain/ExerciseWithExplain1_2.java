@@ -13,8 +13,7 @@ import android.widget.TextView;
 import com.e.diplomamaster.R;
 
 public class ExerciseWithExplain1_2 extends AppCompatActivity {
-
-    TextView trueRow23, falseRow23, trueRow33, falseRow33, trueRow43, falseRow43, trueRow53, falseRow53;
+    TextView expForTable2;
     Button solution, nextStep;
     LinearLayout layWithTable2;
 
@@ -23,6 +22,8 @@ public class ExerciseWithExplain1_2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercise_with_explain1_2);
 
+        nextStep = findViewById(R.id.nextStepExp2);
+        expForTable2 = findViewById(R.id.expForTable2);
         solution = findViewById(R.id.butForTable2);
         layWithTable2 = findViewById(R.id.layForTable2);
         solution.setOnClickListener(new View.OnClickListener() {
@@ -30,6 +31,8 @@ public class ExerciseWithExplain1_2 extends AppCompatActivity {
             public void onClick(View v) {
                 layWithTable2.setVisibility(View.VISIBLE);
                 solution.setVisibility(View.GONE);
+                expForTable2.setVisibility(View.VISIBLE);
+                nextStep.setVisibility(View.VISIBLE);
                 startAnimation();
             }
         });
@@ -37,7 +40,22 @@ public class ExerciseWithExplain1_2 extends AppCompatActivity {
     private void startAnimation(){
         Animation animation = AnimationUtils.loadAnimation(this, R.anim.sample_anim);
         layWithTable2.startAnimation(animation);
+        Animation animation2 = AnimationUtils.loadAnimation(this, R.anim.zoomin);
+        int [] textVG = new int[]{R.id.trueRow23, R.id.falseRow23, R.id.trueRow33, R.id.falseRow33, R.id.trueRow43, R.id.falseRow43, R.id.trueRow53, R.id.falseRow53};
+        for (int i1:textVG) {
+            TextView txtVGreen = findViewById(i1);
+            txtVGreen.startAnimation(animation2);
+            txtVGreen.setBackgroundColor(Color.GREEN);
+        }
+        int [] textVR = new int[]{R.id.falseRow23, R.id.falseRow33, R.id.falseRow43, R.id.falseRow53};
+        for (int i1:textVR) {
+            TextView txtVGreen = findViewById(i1);
+            txtVGreen.startAnimation(animation2);
+            txtVGreen.setBackgroundColor(Color.RED);
+        }
 
+        Animation animation3 = AnimationUtils.loadAnimation(this, R.anim.righttoleft);
+        expForTable2.startAnimation(animation3);
     }
 
 }

@@ -1,5 +1,6 @@
 package com.e.diplomamaster.learning.withExplain;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -34,6 +35,14 @@ public class ExerciseWithExplain1_2 extends AppCompatActivity {
                 expForTable2.setVisibility(View.VISIBLE);
                 nextStep.setVisibility(View.VISIBLE);
                 startAnimation();
+            }
+        });
+
+        nextStep.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ExerciseWithExplain1_2.this, ExerciseWithExplain1_3.class);
+                startActivity(intent);
             }
         });
     }

@@ -126,4 +126,5 @@
     <string name="method2exp">Спосіб 2.</string>
     <string name="forTable2">((P → Q) <![CDATA[&]]> !Q) → !P</string>
     <string name="expForTable2">Оскільки формула ((P → Q) <![CDATA[&]]> !Q) → !P загальнозначуща, то формула !Р - логічний наслідок формул P → Q та !Q.</string>
+    <string name="forTable3">((P → Q) <![CDATA[&]]> !Q) <![CDATA[&]]> P</string>
 </resources>

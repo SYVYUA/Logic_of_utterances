@@ -87,7 +87,7 @@
     <string name="practProblem">Практичні завдання</string>
     <string name="choiseProblem">Виберіть № задачі</string>
     <string name="problem_1">Задача №1</string>
-    <string name="problem_2">Задача №2</string>
+    <string name="problem_2">Теореми</string>
     <!--Для переходу до нових завдань і меню-->
     <string name="not_choise">Ви нічого не вибрали</string>
     <string name="return_to_menu">Повернутися до головного меню.</string>

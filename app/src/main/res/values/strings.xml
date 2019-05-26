@@ -127,4 +127,8 @@
     <string name="forTable2">((P → Q) <![CDATA[&]]> !Q) → !P</string>
     <string name="expForTable2">Оскільки формула ((P → Q) <![CDATA[&]]> !Q) → !P загальнозначуща, то формула !Р - логічний наслідок формул P → Q та !Q.</string>
     <string name="forTable3">((P → Q) <![CDATA[&]]> !Q) <![CDATA[&]]> P</string>
+    <string name="method3exp">Спосіб 3</string>
+    <string name="method3"><![CDATA[Скористаємося теоремою та доведемо що формула (F1 & F2) → !G = ((P → Q) & !Q) & !!P = ((P → Q) & !Q) & P заперечувана. Побудуємо таблицю істинності для цієї формули. Із таблиці видно, що формула (P → Q) & !Q → !P хибна в будь-якій інтерпритації.]]></string>
+    <string name="expForTable3">Тепер відповідно до теорми можна дійти висновку, що формула !Р логічно випливає з формул P → Q та !Q.</string>
+    <string name="finish">До гогловного меню</string>
 </resources>

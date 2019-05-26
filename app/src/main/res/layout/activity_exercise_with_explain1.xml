@@ -84,7 +84,7 @@
         android:layout_below="@+id/solExp1"/>
 
     <LinearLayout
-        android:id="@+id/layForTable"
+        android:id="@+id/layForTable3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/spaceSecond"
@@ -696,7 +696,7 @@
 
     <Space
         android:id="@+id/spaceAfterTable"
-        android:layout_below="@+id/layForTable"
+        android:layout_below="@+id/layForTable3"
         android:layout_width="match_parent"
         android:layout_height="25dp" />
 

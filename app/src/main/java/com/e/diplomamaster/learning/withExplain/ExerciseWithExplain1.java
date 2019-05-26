@@ -13,10 +13,6 @@ import android.widget.TextView;
 
 import com.e.diplomamaster.R;
 
-import java.util.Random;
-import java.util.Timer;
-import java.util.TimerTask;
-
 public class ExerciseWithExplain1 extends AppCompatActivity {
 
     private Button solution;
@@ -35,7 +31,7 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
         }
 
         nextScreen = findViewById(R.id.nextStepExp1);
-        layForTable = findViewById(R.id.layForTable);
+        layForTable = findViewById(R.id.layForTable3);
 
         explainForTable = findViewById(R.id.explainForTable);
         solExplain = findViewById(R.id.solExplain);

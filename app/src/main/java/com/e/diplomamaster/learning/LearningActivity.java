@@ -22,15 +22,12 @@ public class LearningActivity extends AppCompatActivity {
     AlertDialog.Builder ad, ad1;
     Context context;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_learning);
 
         context = LearningActivity.this;
-
         ad = new AlertDialog.Builder(context);
         ad.setTitle(R.string.practProblem);
         ad.setMessage(R.string.choiseProblem);
@@ -72,7 +69,7 @@ public class LearningActivity extends AppCompatActivity {
             }
         });
 
-        ad1.setPositiveButton(R.string.problem_2, new DialogInterface.OnClickListener() {
+        ad1.setPositiveButton(R.string.problem_3, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 intent = new Intent(LearningActivity.this, ExerciseWithExplain2.class);

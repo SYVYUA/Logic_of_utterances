@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import com.e.diplomamaster.R;
 
-public class ExerciseWithExplain2 extends AppCompatActivity {
+public class Theorem1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_exercise_with_explain2);
+        setContentView(R.layout.activity_theorem1);
     }
 }

@@ -14,7 +14,7 @@ import com.e.diplomamaster.learning.lessons.FirstLesson;
 import com.e.diplomamaster.learning.practice.PracticeLesson;
 import com.e.diplomamaster.learning.practice.SecondPracticeLesson1;
 import com.e.diplomamaster.learning.withExplain.ExerciseWithExplain1;
-import com.e.diplomamaster.learning.withExplain.ExerciseWithExplain2;
+import com.e.diplomamaster.learning.withExplain.Theorem1;
 
 public class LearningActivity extends AppCompatActivity {
 
@@ -72,7 +72,7 @@ public class LearningActivity extends AppCompatActivity {
         ad1.setPositiveButton(R.string.problem_3, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                intent = new Intent(LearningActivity.this, ExerciseWithExplain2.class);
+                intent = new Intent(LearningActivity.this, Theorem1.class);
                 startActivity(intent);
             }
         });

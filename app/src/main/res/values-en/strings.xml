@@ -20,19 +20,19 @@
     <string name="logicIF">if,..then -</string>
     <string name="task2">Drag the characters to their values</string>
     <string name="task3">Specify the formula of the law of contradiction</string>
-    <string name="task3var">1) p <![CDATA[&]]> !p = F "\n" 2) p || !p = F "\n" 3) p || q = q || p "\n" 4)p <![CDATA[&]]> p = p</string>
-    <string name="task4">p → q = !p || q це</string>
+    <string name="task3var">1) p <![CDATA[&]]> ¬p = F "\n" 2) p ∨ ¬p = F "\n" 3) p ∨ q = q ∨ p "\n" 4)p <![CDATA[&]]> p = p</string>
+    <string name="task4">p → q = !p ∨ q це</string>
     <string name="task4var">1) The rule of equivalence "\n" 2) The rule of implication "\n" 3) The rule of commutativity "\n" 4) There is no correct answer</string>
     <string name="task5">p ~ q = (p → q) <![CDATA[&]]> (q → p) it</string>
     <string name="task5var">1) The rule of implication "\n" 2) The rule of commutativity "\n" 3) The rule of equivalence "\n" 4) The law of contradiction</string>
     <string name="task6">The result of using the law of distribution is the following formula...</string>
-    <string name="task6var">1) (!q || (!p <![CDATA[&]]> q) ~ r "\n" 2) (q || (!p <![CDATA[&]]> p) ~ q "\n" 3) (q || (!p <![CDATA[&]]> p) → q "\n" 4) (p <![CDATA[&]]> (!p || p) → q</string>
+    <string name="task6var">1) (¬q ∨ (!p <![CDATA[&]]> q) ~ r "\n" 2) (q ∨ (¬p <![CDATA[&]]> p) ~ q "\n" 3) (q ∨ (¬p <![CDATA[&]]> p) → q "\n" 4) (p <![CDATA[&]]> (¬p ∨ p) → q</string>
     <string name="task7">«If the wet is high and the temperature is high, then we do not feel good "is represented by a complex statement. Where is it?</string>
-    <string name="task7var">1) ((p <![CDATA[&]]> q) → (!r)) "\n" 2) p → q <![CDATA[&]]> !q "\n" 3) p <![CDATA[&]]> q → !r "\n" 4) (p <![CDATA[&]]> r → !q</string>
+    <string name="task7var">1) ((p <![CDATA[&]]> q) → (¬r)) "\n" 2) p → q <![CDATA[&]]> ¬q "\n" 3) p <![CDATA[&]]> q → ¬r "\n" 4) (p <![CDATA[&]]> r → ¬q</string>
     <string name="task8">Atom in the logic of utterances is -</string>
     <string name="task8var">1) the smallest part of the expression "\n" 2) element of the equation "\n" 3) formula "\n" 4) There is no correct answer</string>
     <string name="task9">Apply the rule of implication to the formula p→q:</string>
-    <string name="task9var">1) !p || q "\n" 2) !p <![CDATA[&]]> q "\n" 3) p || !q "\n" 4) p <![CDATA[&]]> q</string>
+    <string name="task9var">1) ¬p ∨ q "\n" 2) ¬p <![CDATA[&]]> q "\n" 3) p ∨ ¬q "\n" 4) p <![CDATA[&]]> q</string>
     <string name="task10">Formulate the title of the rule:"\n" !!p = p</string>
     <string name="task10var">1) the rule of double denial "\n" 2) the rule eliminating the implication "\n" 3) the rule of equivalence "\n" 4) the rule of double equality</string>
     <string name="pract1">Prove the equivalence of the formula:</string>
@@ -40,21 +40,21 @@
     <string name="subtask1">Write the sequence of conversions and select the name of the used law or rule</string>
     <string name="varBr">(</string>
     <string name="varBrB">)</string>
-    <string name="varBr2">(!p ||</string>
+    <string name="varBr2">(¬p ∨</string>
     <string name="varPBr">(p </string>
     <string name="varP">p</string>
     <string name="varR">r</string>
     <string name="varEqua">~</string>
     <string name="varQ">q</string>
     <string name="varNotNotq">!!q</string>
-    <string name="varNotQ">!q</string>
-    <string name="varNotP">!p</string>
+    <string name="varNotQ">¬q</string>
+    <string name="varNotP">¬p</string>
     <string name="arrowLeft">→</string>
-    <string name="oR">||</string>
+    <string name="oR">∨</string>
     <string name="equaL">=</string>
     <string name="anD"><![CDATA[&]]></string>
     <string name="qANDr">(q <![CDATA[&]]> r) =</string>
-    <string name="orQ">|| (q</string>
+    <string name="orQ">∨ (q</string>
     <string name="rBracket">r)</string>
     <string name="ch1P">By the rule of elimination of the implication</string>
     <string name="ch2P">By the law of distributivity</string>
@@ -63,25 +63,25 @@
     <string name="secch3P">By the law of commutativity 1а</string>
     <string name="secCh2P">By the law of double denial 6</string>
     <string name="ch1P3">By the rule of implantation input</string>
-    <string name="taskforPract2">p → (q <![CDATA[&]]> r) = !p || (q <![CDATA[&]]> r)</string>
+    <string name="taskforPract2">p → (q <![CDATA[&]]> r) = !p ∨ (q <![CDATA[&]]> r)</string>
     <string name="answQwestion">Show answer options</string>
-    <string name="taskforPract3">(!p || q) <![CDATA[&]]> (!p || r )</string>
-    <string name="explainForSecPr1">p → q та !q → !p</string>
-    <string name="explainForSecPr2">p → q = !p || q</string>
-    <string name="explainForSecPr3">q || !p</string>
-    <string name="explainForSecPr4">!!q || !p</string>
+    <string name="taskforPract3">(¬p ∨ q) <![CDATA[&]]> (¬p ∨ r )</string>
+    <string name="explainForSecPr1">p → q та ¬q → ¬p</string>
+    <string name="explainForSecPr2">p → q = ¬p ∨ q</string>
+    <string name="explainForSecPr3">q ∨ ¬p</string>
+    <string name="explainForSecPr4">¬(¬q) ∨ ¬p</string>
 
 
     <!--Для вспливаючих вікон-->
     <string name="promt_1">False! Expressions can only be narrative sentences.</string>
     <string name="promt_2">False! Make the right match.</string>
-    <string name="promt_3">False! This law can not be ||, and there must be a logical objection.</string>
+    <string name="promt_3">False! This law can not be ∨, and there must be a logical objection.</string>
     <string name="promt_4">False! This is the rule of implication!</string>
     <string name="promt_5">False! Look at the sign ~.</string>
     <string name="promt_6">False! Correct answer 2.</string>
     <string name="promt_7">False! The first part of the statement should be in bracket!</string>
     <string name="promt_8">False! This is not an element and not a part.</string>
-    <string name="promt_9">False! → changes to ||.</string>
+    <string name="promt_9">False! → changes to ∨.</string>
     <string name="promt_10">False! Look at the first two characters!</string>
     <!--Для вибору задач-->
     <string name="practProblem2">Practical tasks with explain</string>
@@ -98,7 +98,7 @@
     <string name="title_problem">Bravo. You have solved the problem!</string>
 
     <!--Задачі з поясненням-->
-    <string name="firstHeader">Розглянемо формули F1 = (P → Q), "\n" F2 = !Q, G = !P</string>
+    <string name="firstHeader">Розглянемо формули F1 = (P → Q), "\n" F2 = ¬Q, G = ¬P</string>
     <string name="firstTaskForExp">Доедемо, що формула G - логічний наслідок формул F1 і F2</string>
     <string name="solutionBut">Solution</string>
     <string name="solExp1">Спосіб 1. Скористаємося таблицями істинності, щоб показати, що формула G виконується в кожній інтерпритації, у якій виконується формула "\n" (P → Q) <![CDATA[&]]> !Q</string>
@@ -106,31 +106,38 @@
     <string name="bigPexp">- prices is growing;</string>
     <string name="bigQ">Q</string>
     <string name="bigSexp">- life level is downing;</string>
-    <string name="notQ">!Q</string>
+    <string name="notQ">¬Q</string>
     <string name="bigRexp">- люди незадоволені.</string>
     <string name="next">Next</string>
     <string name="solExp11">We need to explain logical follow up:</string>
     <string name="p_q">P → Q</string>
-    <string name="p_q_notQ">(P → Q) <![CDATA[&]]> !Q</string>
+    <string name="p_q_notQ">(P → Q) <![CDATA[&]]> ¬Q</string>
     <string name="notP">!P</string>
     <string name="firstStep">Method 1</string>
-    <string name="expl1">Перевіримо що формула "\n" (P → S) || (S → R) || P → R є тавтологією.</string>
+    <string name="expl1">Перевіримо що формула "\n" (P → S) ∨ (S → R) ∨ P → R є тавтологією.</string>
     <string name="expl1_1">Для цього достатньо побудувати таблицю істинності.</string>
-    <string name="p_s_s_r">(P → S) || (S → R)</string>
-    <string name="all_p_s_r">(P → S) || (S → R) || (P → R)</string>
+    <string name="p_s_s_r">(P → S) ∨ (S → R)</string>
+    <string name="all_p_s_r">(P → S) ∨ (S → R) ∨ (P → R)</string>
     <string name="p_s1">P → S</string>
     <string name="s_r1">S → R</string>
     <string name="p_r1">P → R</string>
     <string name="bigt">T</string>
     <string name="bigf">F</string>
-    <string name="explainForTable">Із таблиці видно, що є лише одна інетрпритація, у якій (P → Q) <![CDATA[&]]> !Q виконуєтьсяб а саме P = F, Q = F; у цій інтерпритації формула !P також виконується. Отже, за означенням формула !Р - логічний наслідок формул P → Q та !Q</string>
-    <string name="method2"><![CDATA[Скористаємося теоремою 1. Доведемо що формула (F1 & F2) → G загальнозначуща. Для цього побудуємо таблицю  для формули (F1 & F2) → G = ((P → Q) & !Q) → !P.]]></string>
+    <string name="explainForTable">Із таблиці видно, що є лише одна інетрпритація, у якій (P → Q) <![CDATA[&]]> ¬Q виконуєтьсяб а саме P = F, Q = F; у цій інтерпритації формула ¬P також виконується. Отже, за означенням формула ¬Р - логічний наслідок формул P → Q та ¬Q</string>
+    <string name="method2"><![CDATA[Скористаємося теоремою 1. Доведемо що формула (F1 & F2) → G загальнозначуща. Для цього побудуємо таблицю  для формули (F1 & F2) → G = ((P → Q) & ¬Q) → ¬P.]]></string>
     <string name="method2exp">Спосіб 2.</string>
-    <string name="forTable2">((P → Q) <![CDATA[&]]> !Q) → !P</string>
-    <string name="expForTable2">Оскільки формула ((P → Q) <![CDATA[&]]> !Q) → !P загальнозначуща, то формула !Р - логічний наслідок формул P → Q та !Q.</string>
-    <string name="forTable3">((P → Q) <![CDATA[&]]> !Q) <![CDATA[&]]> P</string>
+    <string name="forTable2">((P → Q) <![CDATA[&]]> ¬Q) → ¬P</string>
+    <string name="expForTable2">Оскільки формула ((P → Q) <![CDATA[&]]> ¬Q) → ¬P загальнозначуща, то формула ¬Р - логічний наслідок формул P → Q та ¬Q.</string>
+    <string name="forTable3">((P → Q) <![CDATA[&]]> ¬Q) <![CDATA[&]]> P</string>
     <string name="method3exp">Спосіб 3</string>
-    <string name="method3"><![CDATA[Скористаємося теоремою 2 та доведемо що формула (F1 & F2) → !G = ((P → Q) & !Q) & !!P = ((P → Q) & !Q) & P.]] заперечувана. Побудуємо таблицю істинності для цієї формули. Із таблиці видно, що формула (P → Q) & !Q → !P хибна в будь-якій інтерпритації.]]></string>
-    <string name="expForTable3">Тепер відповідно до теорми можна дійти висновку, що формула !Р логічно випливає з формул P → Q та !Q.</string>
+    <string name="method3"><![CDATA[Скористаємося теоремою 2 та доведемо що формула (F1 & F2) → ¬G = ((P → Q) & ¬Q) & ¬(¬P) = ((P → Q) & ¬Q) & P.]] заперечувана. Побудуємо таблицю істинності для цієї формули. Із таблиці видно, що формула (P → Q) & ¬Q → ¬P хибна в будь-якій інтерпритації.]]></string>
+    <string name="expForTable3">Тепер відповідно до теорми можна дійти висновку, що формула ¬Р логічно випливає з формул P → Q та ¬Q.</string>
     <string name="finish">To the main menu</string>
+
+    <!--Теорема-->
+    <string name="theorem_1">Theorem 1</string>
+    <string name="theorem_2">Theorem 2</string>
+    <string name="theorem_1_exp"><![CDATA[G - логічний наслідок формул F1, F2,…,Fn тоді й лише тоді, коли формула ((F1 & F2 &...&Fn) → G) - загально значуща.]]></string>
+    <string name="proof_theorem_1">Proof of the theorem. ∧ ∨ ¬</string>
+    <string name="explain_theorem_1"><![CDATA[Необхідність. Нехай G - логічний наслідок формул F1, F2,…,Fn та І - довільна їх інтерпритація. Якщо формули F1, F2,...,Fn істинні в інтерпритації І, то за означенням логічного наслідку формула G також істинна в І. Звідси випливає, що формула ((F1 & F2 &...&Fn) → G) істинна в інтерпритації І. З іншого боку, якщо не всі формули з F1, F2,...,Fn істинні в інтерпритації І, тобто принаймні одна з них хибна в І, то формула ((F1 & F2 &...&Fn) → G) істинна в І. Отже, формула ((F1 & F2 &...&Fn) → G) істинна в довільній інтерпритації, або ⊨ ((F1 & F2 &...&Fn) → G).]]></string>
 </resources>

@@ -11,15 +11,20 @@
         android:id="@+id/sup1"
         android:layout_width="wrap_content"
         android:layout_height="250dp"
-        android:background="@drawable/formula" />
+        android:background="@drawable/formula"/>
 
     <ImageView
         android:id="@+id/sup2"
         android:layout_width="wrap_content"
         android:layout_height="150dp"
-        android:background="@drawable/symbols"
+        android:background="@drawable/symbols"/>
 
+    <TextView
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:linksClickable="true"
         />
-
 
 </LinearLayout>

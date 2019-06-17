@@ -5,6 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
     tools:context=".learning.withExplain.Theorem1"
     android:orientation="vertical">
     <Space
@@ -15,7 +17,17 @@
         android:text="@string/theorem_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#000"/>
+        android:textColor="#000"
+        android:textStyle="bold"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/theorem_1_exp"
+        android:textColor="#575353"
+        android:textIsSelectable="true"/>
     <Space
         android:layout_width="match_parent"
         android:layout_height="5dp" />
@@ -28,16 +40,21 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="5dp" />
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/explain_theorem_1"/>
-
+        android:textColor="#575353"
+        android:text="@string/explain_theorem_1"
+        android:textIsSelectable="true"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/theorem_1_exp"/>
+        android:textColor="#575353"
+        android:text="@string/explain_theorem_11"
+        android:textIsSelectable="true"/>
 
 
 </LinearLayout>

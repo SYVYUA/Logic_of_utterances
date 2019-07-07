@@ -69,6 +69,7 @@
 
                 <TextView
                     android:id="@+id/condition12"
+                    android:layout_height="match_parent"
                     android:layout_marginStart="1dp"
                     android:layout_weight="0"
                     android:background="#B9B9B9"
@@ -80,6 +81,7 @@
 
                 <TextView
                     android:id="@+id/condition13"
+                    android:layout_height="match_parent"
                     android:layout_marginStart="1dp"
                     android:layout_weight="0"
                     android:background="#B9B9B9"
@@ -92,6 +94,7 @@
                 <TextView
                     android:id="@+id/condition14"
                     android:layout_marginStart="1dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="0"
                     android:background="#B9B9B9"
                     android:gravity="center"
@@ -104,23 +107,25 @@
                     android:id="@+id/condition16"
                     android:layout_marginStart="1dp"
                     android:layout_weight="1"
+                    android:layout_height="match_parent"
                     android:background="#B9B9B9"
                     android:gravity="center"
                     android:padding="5dp"
                     android:text="@string/p_q_notQ"
                     android:textColor="#000"
-                    android:textSize="15sp" />
+                    android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/condition17"
+                    android:layout_height="match_parent"
                     android:layout_marginStart="1dp"
-                    android:layout_weight="0"
+                    android:layout_weight="2"
                     android:background="#B9B9B9"
                     android:gravity="center"
                     android:padding="5dp"
                     android:text="@string/forTable3"
                     android:textColor="#000"
-                    android:textSize="15sp" />
+                    android:textSize="13sp" />
             </TableRow>
 
             <!--true or false start1-->
@@ -233,7 +238,7 @@
                         android:id="@+id/trueRow26"
                         android:layout_height="match_parent"
                         android:layout_marginStart="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="2"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:padding="5dp"
@@ -243,8 +248,9 @@
 
                     <TextView
                         android:id="@+id/falseRow26"
+                        android:layout_height="match_parent"
                         android:layout_marginStart="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="2"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:padding="5dp"
@@ -364,7 +370,7 @@
                         android:id="@+id/trueRow36"
                         android:layout_height="match_parent"
                         android:layout_marginStart="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="2"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:padding="5dp"
@@ -374,8 +380,9 @@
 
                     <TextView
                         android:id="@+id/falseRow36"
+                        android:layout_height="match_parent"
                         android:layout_marginStart="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="2"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:padding="5dp"
@@ -495,7 +502,7 @@
                         android:id="@+id/trueRow46"
                         android:layout_height="match_parent"
                         android:layout_marginStart="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="2"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:padding="5dp"
@@ -505,8 +512,9 @@
 
                     <TextView
                         android:id="@+id/falseRow46"
+                        android:layout_height="match_parent"
                         android:layout_marginStart="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="2"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:padding="5dp"
@@ -626,7 +634,7 @@
                         android:id="@+id/trueRow56"
                         android:layout_height="match_parent"
                         android:layout_marginStart="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="2"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:padding="5dp"
@@ -636,8 +644,9 @@
 
                     <TextView
                         android:id="@+id/falseRow56"
+                        android:layout_height="match_parent"
                         android:layout_marginStart="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="2"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:padding="5dp"

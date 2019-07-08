@@ -99,7 +99,7 @@
 
     <!--Задачі з поясненням-->
     <string name="firstHeader">Розглянемо формули F1 = (P → Q), "\n" F2 = ¬Q, G = ¬P</string>
-    <string name="firstTaskForExp">Доедемо, що формула G - логічний наслідок формул F1 і F2</string>
+    <string name="firstTaskForExp">Доведемо, що формула G - логічний наслідок формул F1 і F2</string>
     <string name="solutionBut">Solution</string>
     <string name="solExp1">Спосіб 1. Скористаємося таблицями істинності, щоб показати, що формула G виконується в кожній інтерпритації, у якій виконується формула "\n" (P → Q) ∧ !Q</string>
     <string name="bigP">P</string>
@@ -149,4 +149,8 @@
     <!--move here-->
     <string name="move_here">Flip here →</string>
     <string name="move_here2">← Flip here</string>
+
+    <!--пояснення чому true or false-->
+    <string name="explainLogic">Explain</string>
+    <string name="logicForAnd">Формула (P ∧ Q) істинна, якщо P та Q водночас істинні. В усіх інших випадках формула (P ∧ Q) хибна.</string>
 </resources>

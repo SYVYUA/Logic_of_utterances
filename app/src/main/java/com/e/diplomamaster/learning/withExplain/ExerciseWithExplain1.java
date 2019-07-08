@@ -1,8 +1,10 @@
 package com.e.diplomamaster.learning.withExplain;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.AnimationDrawable;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -20,7 +22,8 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
     private Button solution;
     private TextView txtVWRed, explainForTable, solExplain, nextScreen, falseRow53, falseRow54, falseRow55, falseRow56, falseRow46, trueRow45, trueRow44, falseRow43, trueRow36, trueRow35, falseRow34, trueRow33, trueRow23, falseRow23, trueRow25, trueRow24, falseRow24, falseRow25, falseRow26, falseRow33, trueRow34, falseRow35, falseRow36, trueRow43, falseRow44, falseRow45, trueRow46, trueRow53, trueRow54, trueRow55, trueRow56, trueRow26;
     LinearLayout layForTable;
-
+    AlertDialog.Builder ad;
+    Context context;
     AnimationDrawable animationDrawable;
     ImageView animImage;
 
@@ -66,11 +69,17 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
         animImage.setBackgroundResource(R.drawable.question_mark);
         animationDrawable = (AnimationDrawable) animImage.getBackground();
 
+        context = ExerciseWithExplain1.this;
+        ad = new AlertDialog.Builder(context);
+        ad.setTitle(R.string.explainLogic);
+        ad.setMessage(R.string.logicForAnd);
+        final int ir = 0;
         falseRow56.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                    animationDrawable.start();
+                    ad.show();
             }
         });
 
@@ -79,6 +88,7 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
             public void onClick(View v) {
                 animImage.setVisibility(View.VISIBLE);
                 animationDrawable.start();
+                animImage.setVisibility(View.INVISIBLE);
             }
         });
 

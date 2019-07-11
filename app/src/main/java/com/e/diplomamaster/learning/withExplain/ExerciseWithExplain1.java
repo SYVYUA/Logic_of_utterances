@@ -73,13 +73,40 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
         ad = new AlertDialog.Builder(context);
         ad.setTitle(R.string.explainLogic);
         ad.setMessage(R.string.logicForAnd);
-        final int ir = 0;
+
+
         falseRow56.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
+                /*animImage.setVisibility(View.VISIBLE);
                     animationDrawable.start();
-                    ad.show();
+                    ad.show();*/
+                // Pass our animation drawable to our custom drawable class
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        ad.show();
+                    }
+                };
+
+                // Set the views drawable to our custom drawable
+                v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
+
             }
         });
 
@@ -88,7 +115,6 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
             public void onClick(View v) {
                 animImage.setVisibility(View.VISIBLE);
                 animationDrawable.start();
-                animImage.setVisibility(View.INVISIBLE);
             }
         });
 

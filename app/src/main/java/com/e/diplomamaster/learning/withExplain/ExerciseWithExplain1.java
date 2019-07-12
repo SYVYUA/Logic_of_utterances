@@ -78,10 +78,6 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
         falseRow56.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*animImage.setVisibility(View.VISIBLE);
-                    animationDrawable.start();
-                    ad.show();*/
-                // Pass our animation drawable to our custom drawable class
                 final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
                         (AnimationDrawable) getResources().getDrawable(
                                 R.drawable.question_mark)) {
@@ -102,7 +98,7 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
                 };
 
                 // Set the views drawable to our custom drawable
-                v.setBackgroundDrawable(cad);
+                //v.setBackgroundDrawable(cad);
 
                 // Start the animation
                 cad.start();

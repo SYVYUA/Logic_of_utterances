@@ -22,7 +22,7 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
     private Button solution;
     private TextView txtVWRed, explainForTable, solExplain, nextScreen, falseRow53, falseRow54, falseRow55, falseRow56, falseRow46, trueRow45, trueRow44, falseRow43, trueRow36, trueRow35, falseRow34, trueRow33, trueRow23, falseRow23, trueRow25, trueRow24, falseRow24, falseRow25, falseRow26, falseRow33, trueRow34, falseRow35, falseRow36, trueRow43, falseRow44, falseRow45, trueRow46, trueRow53, trueRow54, trueRow55, trueRow56, trueRow26;
     LinearLayout layForTable;
-    AlertDialog.Builder ad;
+    AlertDialog.Builder adForAnd, adForNot, adForIfelse;
     Context context;
     AnimationDrawable animationDrawable;
     ImageView animImage;
@@ -70,10 +70,17 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
         animationDrawable = (AnimationDrawable) animImage.getBackground();
 
         context = ExerciseWithExplain1.this;
-        ad = new AlertDialog.Builder(context);
-        ad.setTitle(R.string.explainLogic);
-        ad.setMessage(R.string.logicForAnd);
+        adForAnd = new AlertDialog.Builder(context);
+        adForAnd.setTitle(R.string.explainLogic);
+        adForAnd.setMessage(R.string.logicForAnd);
 
+        adForNot = new AlertDialog.Builder(context);
+        adForNot.setTitle(R.string.explainLogic);
+        adForNot.setMessage(R.string.logicForNot);
+
+        adForIfelse = new AlertDialog.Builder(context);
+        adForIfelse.setTitle(R.string.explainLogic);
+        adForIfelse.setMessage(R.string.logicForIfelse);
 
         falseRow56.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -93,264 +100,913 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
                         // Animation has finished...
                         animationDrawable.stop();
                         animImage.setVisibility(View.GONE);
-                        ad.show();
+                        adForNot.show();
                     }
                 };
-
                 // Set the views drawable to our custom drawable
                 //v.setBackgroundDrawable(cad);
 
                 // Start the animation
                 cad.start();
-
             }
         });
 
         trueRow56.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForNot.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         falseRow55.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForAnd.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         trueRow55.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForAnd.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         falseRow54.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForNot.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         trueRow54.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForNot.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         falseRow53.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForIfelse.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         trueRow53.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForIfelse.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         falseRow46.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForNot.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         trueRow46.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForNot.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         falseRow45.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForAnd.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         trueRow45.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForAnd.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         falseRow44.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForNot.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         trueRow44.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForNot.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         falseRow43.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForIfelse.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         trueRow43.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForIfelse.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         falseRow36.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForNot.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         trueRow36.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForNot.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         falseRow35.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForAnd.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         trueRow35.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForAnd.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         falseRow34.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForNot.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         trueRow34.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForNot.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         falseRow33.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForIfelse.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         trueRow33.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForIfelse.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         falseRow26.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForNot.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         trueRow26.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForNot.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         falseRow25.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForAnd.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         trueRow25.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForAnd.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         falseRow24.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForNot.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         trueRow24.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForNot.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         falseRow23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForIfelse.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 
         trueRow23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animImage.setVisibility(View.VISIBLE);
-                animationDrawable.start();
+                final CustomAnimationDrawableNew cad = new CustomAnimationDrawableNew(
+                        (AnimationDrawable) getResources().getDrawable(
+                                R.drawable.question_mark)) {
+                    @Override
+                    public void onAnimationStart() {
+                        // Animation has started...
+                        animImage.setVisibility(View.VISIBLE);
+                        animationDrawable.start();
+                    }
+
+                    @Override
+                    public void onAnimationFinish() {
+                        // Animation has finished...
+                        animationDrawable.stop();
+                        animImage.setVisibility(View.GONE);
+                        adForIfelse.show();
+                    }
+                };
+                // Set the views drawable to our custom drawable
+                //v.setBackgroundDrawable(cad);
+
+                // Start the animation
+                cad.start();
             }
         });
 

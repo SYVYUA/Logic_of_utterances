@@ -139,12 +139,12 @@
 
     <!--Теорема∧ ∨ c-->
     <string name="theorem_1">Theorem 1</string>
-    <string name="explain_theorem_1">Formula G is the logical consequences of the formulas F1, F2,…,Fn then and only then the formula ((F1 ∧ F2 ∧...∧Fn) → G) - general significance. \n\n <b>Proof of the theorem.</b> \n\n <b>Necessity.</b> Нехай G - логічний наслідок формул F1, F2,…,Fn та І - довільна їх інтерпритація. Якщо формули F1, F2,...,Fn істинні в інтерпритації І, то за означенням логічного наслідку формула G також істинна в І. Звідси випливає, що формула ((F1 ∧ F2 ∧...∧Fn) → G) істинна в інтерпритації І. З іншого боку, якщо не всі формули з F1, F2,...,Fn істинні в інтерпритації І, тобто принаймні одна з них хибна в І, то формула ((F1 ∧ F2 ∧...∧Fn) → G) істинна в І. Отже, формула ((F1 ∧ F2 ∧...∧Fn) → G) істинна в довільній інтерпритації, або ⊨ ((F1 ∧ F2 ∧...∧Fn) → G). \n\n <b>Достатність.</b> Припустимо що формула ((F1 ∧ F2 ∧...∧ Fn) → G) загальнозначуща. Тоді Якщо формула (F1 ∧ F2 ∧...∧ Fn) істинна в якійсь інтерпритації, то й формула G має бути істинною в цій інтерпритації, тобто G - логічний наслідок формул F1, F2,...,Fn. Якщо формула G - логічний наслідок формул F1, F2,...,Fn то формулу ((F1 ∧ F2 ∧...∧ Fn) → G) називають логічною теоремою, а G - вивідна формула. Вираз F1, F2,...,Fn ⊢ G називають правилом виведення. Тут гіпотези записано зліва від знака ⊢, а висновок - справа. Сам знак ⊢ має зміст "отже".</string>
+    <string name="explain_theorem_1">Formula G is the logical consequences of the formulas F1, F2,…,Fn then and only then the formula ((F1 ∧ F2 ∧...∧Fn) → G) - general significance. \n\n <b>Proof of the theorem.</b> \n\n <b>Necessity.</b> Let G the logical consequence of the formulas F1, F2,…,Fn and І - their arbitrary interpretation. If the formulas F1, F2,...,Fn are true in the interpretation of I, then according to the logical consequence formula G is also true in I. It follows from this that the formula ((F1 ∧ F2 ∧...∧Fn) → G) is true in the interpretation of I. On the other hand, if not all formulas from F1, F2,...,Fn are true in I interpolation, that is, at least one of them is false in I, then the formula ((F1 ∧ F2 ∧...∧Fn) → G) is true in І. Thus, the formula ((F1 ∧ F2 ∧...∧Fn) → G) is true in arbitrary interpretation, or ⊨ ((F1 ∧ F2 ∧...∧Fn) → G). \n\n <b>Sufficiency.</b> Assume that the formula ((F1 ∧ F2 ∧...∧ Fn) → G)is of general significance. Then if formula (F1 ∧ F2 ∧...∧ Fn) is true in some interpretation, then formula G must be true in this interpretation, ie G is the logical consequences of the formulas F1, F2,...,Fn. If formula G is the logical consequences of the formulas F1, F2,...,Fn then the formula ((F1 ∧ F2 ∧...∧ Fn) → G) is called logical theorem, and G is the output formula. The expression F1, F2,...,Fn ⊢ G is called the output rule. Here hypotheses are written to the left of the sign ⊢, and the conclusion is to the right. The symbol ⊢ has the meaning "consequently".</string>
 
 
     <!--Теорема 2∧ ∨-->
-    <string name="theorem_2">Теорема 2 (принципи прямої дедукції).</string>
-    <string name="explain_theorem_2">Формула G - логічний наслідок формул F1, F2,…,Fn тоді й лише тоді, коли формула ((F1 ∧ F2 ∧...∧Fn) → G) - суперечність. \n\n За теоремою 1 формула G - логічний наслідок формул F1, F2,...,Fn тоді й лише тоді, коли формула ((F1 ∧ F2 ∧...∧Fn) → G) - загально значуща. Отже, G - логічний наслідок формул F1, F2,...,Fn тоді й лише тоді, коли заперечення формули ((F1 ∧ F2 ∧...∧Fn) → G) - суперечність. Справді,</string>
+    <string name="theorem_2">Theorem 2 (principles of direct deduction).</string>
+    <string name="explain_theorem_2">Formula G is the logical consequence of the formulas F1, F2, ..., Fn if and only if the formula ((F1 ∧ F2 ∧...∧Fn) → G) is a contradiction. \n\n By the theorem 1 formula G is the logical consequence of the formulas F1, F2,...,Fn if and only if the formula ((F1 ∧ F2 ∧...∧Fn) → G) is the generally significant. Consequently, G is the logical consequence of the formulas F1, F2,...,Fn if and only if the denial of the formulas ((F1 ∧ F2 ∧...∧Fn) → G) is a contradiction. Indeed,</string>
 
     <!--move here-->
     <string name="move_here">Flip here →</string>
@@ -152,7 +152,7 @@
 
     <!--пояснення чому true or false-->
     <string name="explainLogic">Explain</string>
-    <string name="logicForAnd">Формула (P ∧ Q) істинна, якщо P та Q водночас істинні. В усіх інших випадках формула (P ∧ Q) хибна.</string>
-    <string name="logicForNot">Формула (¬P) істинна, коли Р хибна, і хибна, коли Р істинна.</string>
-    <string name="logicForIfelse">Формула (P → Q) хибна, якщо формула Р істинна, а Q - хибне. У всіх інших випадках вона істинна.</string>
+    <string name="logicForAnd">Formula (P ∧ Q) is true, if P and Q are true at the same time. In all other cases, the formula (P ∧ Q) is false.</string>
+    <string name="logicForNot">Formula (¬P) is true, when Р is false and false when Р is true.</string>
+    <string name="logicForIfelse">Formula (P → Q) is false, if formula Р is true, and Q is false. In all other cases, the formula is true.</string>
 </resources>

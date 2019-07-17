@@ -98,24 +98,24 @@
     <string name="title_problem">Bravo. You have solved the problem!</string>
 
     <!--Задачі з поясненням-->
-    <string name="firstHeader">Розглянемо формули F1 = (P → Q), "\n" F2 = ¬Q, G = ¬P</string>
-    <string name="firstTaskForExp">Доведемо, що формула G - логічний наслідок формул F1 і F2</string>
+    <string name="firstHeader">Let consider the following formulas F1 = (P → Q), "\n" F2 = ¬Q, G = ¬P</string>
+    <string name="firstTaskForExp">Prove that G is a logical consequence of the formulas F1 and F2</string>
     <string name="solutionBut">Solution</string>
-    <string name="solExp1">Спосіб 1. Скористаємося таблицями істинності, щоб показати, що формула G виконується в кожній інтерпритації, у якій виконується формула "\n" (P → Q) ∧ !Q</string>
+    <string name="solExp1">Method 1: Use the truth tables to show that formula G is executed in each interpolation, in which the formula holds. "\n" (P → Q) ∧ !Q</string>
     <string name="bigP">P</string>
     <string name="bigPexp">- prices is growing;</string>
     <string name="bigQ">Q</string>
     <string name="bigSexp">- life level is downing;</string>
     <string name="notQ">¬Q</string>
-    <string name="bigRexp">- люди незадоволені.</string>
+    <string name="bigRexp">- people do not satisfied.</string>
     <string name="next">Next</string>
     <string name="solExp11">We need to explain logical follow up:</string>
     <string name="p_q">P → Q</string>
     <string name="p_q_notQ">(P → Q) ∧ ¬Q</string>
     <string name="notP">¬P</string>
     <string name="firstStep">Method 1</string>
-    <string name="expl1">Перевіримо що формула "\n" (P → S) ∨ (S → R) ∨ P → R є тавтологією.</string>
-    <string name="expl1_1">Для цього достатньо побудувати таблицю істинності.</string>
+    <string name="expl1">Let is verify that the formula "\n" (P → S) ∨ (S → R) ∨ P → R is a tautology.</string>
+    <string name="expl1_1">To do this, it is enough to build a truth table.</string>
     <string name="p_s_s_r">(P → S) ∨ (S → R)</string>
     <string name="all_p_s_r">(P → S) ∨ (S → R) ∨ (P → R)</string>
     <string name="p_s1">P → S</string>
@@ -123,7 +123,7 @@
     <string name="p_r1">P → R</string>
     <string name="bigt">T</string>
     <string name="bigf">F</string>
-    <string name="explainForTable">Із таблиці видно, що є лише одна інетрпритація, у якій (P → Q) ∧ ¬Q виконуєтьсяб а саме P = F, Q = F; у цій інтерпритації формула ¬P також виконується. Отже, за означенням формула ¬Р - логічний наслідок формул P → Q та ¬Q</string>
+    <string name="explainForTable">From the table it is seen that there is only one interpretation, in which (P → Q) ∧ ¬Q is performed, namely, P = F, Q = F; In this interpretation, the formula ¬P is also executed. Consequently, by the definition of the formula ¬Р - the logical consequence of the formulas P → Q and ¬Q</string>
     <string name="method2">Скористаємося теоремою 1. Доведемо що формула (F1 ∧ F2) → G загальнозначуща. Для цього побудуємо таблицю  для формули (F1 ∧ F2) → G = ((P → Q) ∧ ¬Q) → ¬P.</string>
     <string name="method2exp">Спосіб 2.</string>
     <string name="forTable2">((P → Q) ∧ ¬Q) → ¬P</string>

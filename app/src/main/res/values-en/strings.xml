@@ -124,14 +124,14 @@
     <string name="bigt">T</string>
     <string name="bigf">F</string>
     <string name="explainForTable">From the table it is seen that there is only one interpretation, in which (P → Q) ∧ ¬Q is performed, namely, P = F, Q = F; In this interpretation, the formula ¬P is also executed. Consequently, by the definition of the formula ¬Р - the logical consequence of the formulas P → Q and ¬Q</string>
-    <string name="method2">Скористаємося теоремою 1. Доведемо що формула (F1 ∧ F2) → G загальнозначуща. Для цього побудуємо таблицю  для формули (F1 ∧ F2) → G = ((P → Q) ∧ ¬Q) → ¬P.</string>
-    <string name="method2exp">Спосіб 2.</string>
+    <string name="method2">We use Theorem 1. We prove that the formula (F1 ∧ F2) → G is of general significance. To do this, we construct a table for the formula (F1 ∧ F2) → G = ((P → Q) ∧ ¬Q) → ¬P.</string>
+    <string name="method2exp">Method 2.</string>
     <string name="forTable2">((P → Q) ∧ ¬Q) → ¬P</string>
-    <string name="expForTable2">Оскільки формула ((P → Q) ∧ ¬Q) → ¬P загальнозначуща, то формула ¬Р - логічний наслідок формул P → Q та ¬Q.</string>
+    <string name="expForTable2">Since the formula ((P → Q) ∧ ¬Q) → ¬P is of general significance, the formula ¬Р - is the logical consequences of the formulas P → Q and ¬Q.</string>
     <string name="forTable3">((P → Q) ∧ ¬Q) ∧ P</string>
-    <string name="method3exp">Спосіб 3</string>
-    <string name="method3">Скористаємося теоремою 2 та доведемо що формула (F1 ∧ F2) → ¬G = ((P → Q) ∧ ¬Q) ∧ ¬(¬P) = ((P → Q) ∧ ¬Q) ∧ P)). заперечувана. Побудуємо таблицю істинності для цієї формули. Із таблиці видно, що формула (P → Q) ∧ ¬Q → ¬P хибна в будь-якій інтерпритації.</string>
-    <string name="expForTable3">Тепер відповідно до теорми можна дійти висновку, що формула ¬Р логічно випливає з формул P → Q та ¬Q.</string>
+    <string name="method3exp">Method 3</string>
+    <string name="method3">We use Theorem 2 and prove that formula (F1 ∧ F2) → ¬G = ((P → Q) ∧ ¬Q) ∧ ¬(¬P) = ((P → Q) ∧ ¬Q) ∧ P)) is denied. Let build the table of truth for this formula. Create a truth table for this formula. From the table it is clear that the formula (P → Q) ∧ ¬Q → ¬P is false in any interpretation.</string>
+    <string name="expForTable3">Now, according to the theorem, we can conclude that the formula ¬Р logical follows from the formulas P → Q and ¬Q.</string>
     <string name="finish">To the main menu</string>
 
     <!--link for the symbol-->
@@ -139,7 +139,7 @@
 
     <!--Теорема∧ ∨ c-->
     <string name="theorem_1">Theorem 1</string>
-    <string name="explain_theorem_1">Формула G - логічний наслідок формул F1, F2,…,Fn тоді й лише тоді, коли формула ((F1 ∧ F2 ∧...∧Fn) → G) - загально значуща. \n\n <b>Proof of the theorem.</b> \n\n <b>Необхідність.</b> Нехай G - логічний наслідок формул F1, F2,…,Fn та І - довільна їх інтерпритація. Якщо формули F1, F2,...,Fn істинні в інтерпритації І, то за означенням логічного наслідку формула G також істинна в І. Звідси випливає, що формула ((F1 ∧ F2 ∧...∧Fn) → G) істинна в інтерпритації І. З іншого боку, якщо не всі формули з F1, F2,...,Fn істинні в інтерпритації І, тобто принаймні одна з них хибна в І, то формула ((F1 ∧ F2 ∧...∧Fn) → G) істинна в І. Отже, формула ((F1 ∧ F2 ∧...∧Fn) → G) істинна в довільній інтерпритації, або ⊨ ((F1 ∧ F2 ∧...∧Fn) → G). \n\n <b>Достатність.</b> Припустимо що формула ((F1 ∧ F2 ∧...∧ Fn) → G) загальнозначуща. Тоді Якщо формула (F1 ∧ F2 ∧...∧ Fn) істинна в якійсь інтерпритації, то й формула G має бути істинною в цій інтерпритації, тобто G - логічний наслідок формул F1, F2,...,Fn. Якщо формула G - логічний наслідок формул F1, F2,...,Fn то формулу ((F1 ∧ F2 ∧...∧ Fn) → G) називають логічною теоремою, а G - вивідна формула. Вираз F1, F2,...,Fn ⊢ G називають правилом виведення. Тут гіпотези записано зліва від знака ⊢, а висновок - справа. Сам знак ⊢ має зміст "отже".</string>
+    <string name="explain_theorem_1">Formula G is the logical consequences of the formulas F1, F2,…,Fn then and only then the formula ((F1 ∧ F2 ∧...∧Fn) → G) - general significance. \n\n <b>Proof of the theorem.</b> \n\n <b>Necessity.</b> Нехай G - логічний наслідок формул F1, F2,…,Fn та І - довільна їх інтерпритація. Якщо формули F1, F2,...,Fn істинні в інтерпритації І, то за означенням логічного наслідку формула G також істинна в І. Звідси випливає, що формула ((F1 ∧ F2 ∧...∧Fn) → G) істинна в інтерпритації І. З іншого боку, якщо не всі формули з F1, F2,...,Fn істинні в інтерпритації І, тобто принаймні одна з них хибна в І, то формула ((F1 ∧ F2 ∧...∧Fn) → G) істинна в І. Отже, формула ((F1 ∧ F2 ∧...∧Fn) → G) істинна в довільній інтерпритації, або ⊨ ((F1 ∧ F2 ∧...∧Fn) → G). \n\n <b>Достатність.</b> Припустимо що формула ((F1 ∧ F2 ∧...∧ Fn) → G) загальнозначуща. Тоді Якщо формула (F1 ∧ F2 ∧...∧ Fn) істинна в якійсь інтерпритації, то й формула G має бути істинною в цій інтерпритації, тобто G - логічний наслідок формул F1, F2,...,Fn. Якщо формула G - логічний наслідок формул F1, F2,...,Fn то формулу ((F1 ∧ F2 ∧...∧ Fn) → G) називають логічною теоремою, а G - вивідна формула. Вираз F1, F2,...,Fn ⊢ G називають правилом виведення. Тут гіпотези записано зліва від знака ⊢, а висновок - справа. Сам знак ⊢ має зміст "отже".</string>
 
 
     <!--Теорема 2∧ ∨-->

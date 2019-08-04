@@ -66,7 +66,7 @@ public class SecondPracticeLesson2 extends AppCompatActivity {
                     intent = new Intent(SecondPracticeLesson2.this, SecondPracticeLesson3.class);
                     startActivity(intent);
                 }else{
-                    Toast toast = Toast.makeText(getApplicationContext(), "Не вірно! Виберіть правильну відповідь!", Toast.LENGTH_SHORT);
+                    Toast toast = Toast.makeText(getApplicationContext(), R.string.for_drag_elem2, Toast.LENGTH_SHORT);
                     toast.show();
                 }
             }
@@ -104,7 +104,7 @@ public class SecondPracticeLesson2 extends AppCompatActivity {
                         box1.setVisibility(View.GONE);
                         newPar.addView(view);
                     } else {
-                        Toast toast = Toast.makeText(getApplicationContext(), "Не вірно! Зробіть правильну відповідність.", Toast.LENGTH_SHORT);
+                        Toast toast = Toast.makeText(getApplicationContext(), R.string.for_drag_elem, Toast.LENGTH_SHORT);
                         toast.show();
                     }
                     break;

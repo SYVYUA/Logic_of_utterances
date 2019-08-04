@@ -137,7 +137,7 @@
 
             <TextView
                 android:id="@+id/varNotNotQ"
-                android:layout_width="25dp"
+                android:layout_width="45dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="@string/varNotNotq" />

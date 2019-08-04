@@ -6,7 +6,7 @@
     <string name="my_status">Магістр</string>
     <string name="firstLesson">Тестові завдання</string>
     <string name="secondLesson">Практичні завдання</string>
-    <string name="thirdLesson">Задачі з поясненням</string>
+    <string name="thirdLesson">Задача з поясненням</string>
     <string name="check">Перевірити</string>
     <string name="nametest1">Які з речень є висловлюванням?</string>
     <string name="test1">1. На вулиці дощ. "\n" 2.Викладач не прийшов на урок. "\n" 3. Коли прийде Сергій? "\n" 4. Читай уважно! </string>
@@ -29,7 +29,7 @@
     <string name="task6var">1) (¬q ∨ (¬p ∧ q) ~ r "\n" 2) (q ∨ (¬p ∧ p) ~ q "\n" 3) (q ∨ (¬p ∧ p) → q "\n" 4) (p ∧ (¬p ∨ p) → q</string>
     <string name="task7">«Якщо вологість велика та температура висока, то ми не почуваємо себе добре» представлено складним висловлюванням. Де воно?</string>
     <string name="task7var">1) ((p ∧ q) → (¬r)) "\n" 2) p → q ∧ ¬q "\n" 3) p ∧ q → ¬r "\n" 4) (p ∧ r → ¬q</string>
-    <string name="task8">Атом у логікі висловлювань це —</string>
+    <string name="task8">Атом у логіці висловлювань це —</string>
     <string name="task8var">1) найменша частина виразу "\n" 2) елемент рівняння "\n" 3) формула "\n" 4) правильна відповідь відсутня</string>
     <string name="task9">Застосувати правило імплікації до формули p→q:</string>
     <string name="task9var">1) ¬p ∨ q "\n" 2) ¬p ∧ q "\n" 3) p ∨ ¬q "\n" 4) p ∧ q</string>
@@ -46,7 +46,7 @@
     <string name="varR">r</string>
     <string name="varEqua">~</string>
     <string name="varQ">q</string>
-    <string name="varNotNotq">¬(¬q)</string>
+    <string name="varNotNotq">!!q</string>
     <string name="varNotQ">¬q</string>
     <string name="varNotP">¬p</string>
     <string name="arrowLeft">→</string>
@@ -72,16 +72,18 @@
     <string name="explainForSecPr4">¬(¬q) ∨ ¬p</string>
 
     <!--Для вспливаючих вікон-->
-    <string name="promt_1">Не вірно! Висловлюваннями можуть бути тільки розповідні речення.</string>
-    <string name="promt_2">Не вірно! Зробіть правильну відповідність.</string>
-    <string name="promt_3">Не вірно! В цьому законі не може бути ∨, а також повинно бути логічне заперечення.</string>
-    <string name="promt_4">Не вірно! Це, правило імплікації!</string>
-    <string name="promt_5">Не вірно! Дивись знак ~.</string>
-    <string name="promt_6">Не вірно! Правильна відповідь  2.</string>
-    <string name="promt_7">Не вірно! Перша частина висловлювання має бути в дужках!</string>
-    <string name="promt_8">Не вірно! Це не елемент і не частина.</string>
-    <string name="promt_9">Не вірно! → змінюється на ∨.</string>
-    <string name="promt_10">Не вірно! Дивись на перші два знаки!</string>
+    <string name="promt_1">Помилка! Висловлюваннями можуть бути тільки розповідні речення.</string>
+    <string name="promt_2">Помилка! Зробіть правильну відповідність.</string>
+    <string name="promt_3">Помилка! В цьому законі не може бути ∨, а також повинно бути логічне заперечення.</string>
+    <string name="promt_4">Помилка! Це, правило імплікації!</string>
+    <string name="promt_5">Помилка! Дивись знак ~.</string>
+    <string name="promt_6">Помилка! Правильна відповідь  2.</string>
+    <string name="promt_7">Помилка! Перша частина висловлювання має бути в дужках!</string>
+    <string name="promt_8">Помилка! Це не елемент і не частина.</string>
+    <string name="promt_9">Помилка! → змінюється на ∨.</string>
+    <string name="promt_10">Помилка! Дивись на перші два знаки!</string>
+    <string name="for_drag_elem">Помилка! Зробіть правильну відповідність.</string>
+    <string name="for_drag_elem2">Помилка! Зробіть правильний вибір.</string>
     <!--Для вибору задач-->
     <string name="practProblem2">Практичні завдання з поясненням</string>
     <string name="practProblem">Практичні завдання</string>
@@ -98,10 +100,10 @@
     <string name="title_problem">Вітаю. Ви розв’язали задачу!</string>
 
     <!--Задачі з поясненням-->
-    <string name="firstHeader">Розглянемо формули F1 = (P → Q), "\n" F2 = !Q, G = !P</string>
+    <string name="firstHeader">Розглянемо формули F1 = (P → Q), "\n" F2 = ¬Q, G = ¬P</string>
     <string name="firstTaskForExp">Доведемо, що формула G - логічний наслідок формул F1 і F2</string>
     <string name="solutionBut">Розв’язання</string>
-    <string name="solExp1">Спосіб 1. Скористаємося таблицями істинності, щоб показати, що формула G виконується в кожній інтерпритації, у якій виконується формула "\n" (P → Q) ∧ !Q</string>
+    <string name="solExp1">Спосіб 1. Скористаємося таблицями істинності, щоб показати, що формула G виконується в кожній інтерпритації, у якій виконується формула "\n" (P → Q) ∧ ¬Q</string>
     <string name="bigP">P</string>
     <string name="bigPexp">- ціни зростають;</string>
     <string name="bigQ">Q</string>

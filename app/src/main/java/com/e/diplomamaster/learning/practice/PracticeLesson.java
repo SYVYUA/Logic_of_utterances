@@ -74,7 +74,7 @@ public class PracticeLesson extends AppCompatActivity {
                     if(ch1P.isChecked()){
                     intent = new Intent(PracticeLesson.this, PracticeLesson2.class);
                     startActivity(intent);}else{
-                        Toast toast = Toast.makeText(getApplicationContext(), "Не вірно! Виберіть правильну відповідь!", Toast.LENGTH_SHORT);
+                        Toast toast = Toast.makeText(getApplicationContext(), R.string.for_drag_elem2, Toast.LENGTH_SHORT);
                         toast.show();
                     }
                 }
@@ -130,7 +130,7 @@ public class PracticeLesson extends AppCompatActivity {
                         newPar.addView(view);
 
                     } else {
-                        Toast toast = Toast.makeText(getApplicationContext(), "Не вірно! Зробіть правильну відповідність.", Toast.LENGTH_SHORT);
+                        Toast toast = Toast.makeText(getApplicationContext(), R.string.for_drag_elem, Toast.LENGTH_SHORT);
                         toast.show();
                     }
                     break;

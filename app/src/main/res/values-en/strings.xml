@@ -6,7 +6,7 @@
     <string name="my_status">Master</string>
     <string name="firstLesson">Test tasks</string>
     <string name="secondLesson">Practice tasks</string>
-    <string name="thirdLesson">Practice exercises with explain</string>
+    <string name="thirdLesson">Practice exercise with explain</string>
     <string name="check">Verify</string>
     <string name="nametest1">Which of the sentences is a statement?</string>
     <string name="test1">1. It rain on street. "\n" 2.Teacher did not come to the lesson. "\n" 3. When will Sergey come? "\n" 4. Read carefully! </string>
@@ -69,7 +69,7 @@
     <string name="explainForSecPr1">p → q та ¬q → ¬p</string>
     <string name="explainForSecPr2">p → q = ¬p ∨ q</string>
     <string name="explainForSecPr3">q ∨ ¬p</string>
-    <string name="explainForSecPr4">¬(¬q) ∨ ¬p</string>
+    <string name="explainForSecPr4">!!q ∨ ¬p</string>
 
 
     <!--Для вспливаючих вікон-->
@@ -83,6 +83,8 @@
     <string name="promt_8">False! This is not an element and not a part.</string>
     <string name="promt_9">False! → changes to ∨.</string>
     <string name="promt_10">False! Look at the first two characters!</string>
+    <string name="for_drag_elem">False! Make the right match.</string>
+    <string name="for_drag_elem2">False! Take the correct choice.</string>
     <!--Для вибору задач-->
     <string name="practProblem2">Practical tasks with explain</string>
     <string name="practProblem">Practical tasks</string>

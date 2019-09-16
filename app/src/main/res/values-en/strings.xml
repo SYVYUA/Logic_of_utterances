@@ -25,8 +25,8 @@
     <string name="task4var">1) The rule of equivalence "\n" 2) The rule of implication "\n" 3) The rule of commutativity "\n" 4) There is no correct answer</string>
     <string name="task5">p ~ q = (p → q) ∧ (q → p) it</string>
     <string name="task5var">1) The rule of implication "\n" 2) The rule of commutativity "\n" 3) The rule of equivalence "\n" 4) The law of contradiction</string>
-    <string name="task6">The result of using the law of distribution is the following formula...</string>
-    <string name="task6var">1) (¬q ∨ (¬p ∧ q) ~ r "\n" 2) (q ∨ (¬p ∧ p) ~ q "\n" 3) (q ∨ (¬p ∧ p) → q "\n" 4) (p ∧ (¬p ∨ p) → q</string>
+    <string name="task6">p ∨ (q ∧ r) = (p ∨ q) ∧ (p ∨ r) is</string>
+    <string name="task6var">1) Commutative rule "\n" 2) Rule of interpolation "\n" 3) Distributive law "\n" 4) Absorption law</string>
     <string name="task7">«If the wet is high and the temperature is high, then we do not feel good "is represented by a complex statement. Where is it?</string>
     <string name="task7var">1) ((p ∧ q) → (¬r)) "\n" 2) p → q ∧ ¬q "\n" 3) p ∧ q → ¬r "\n" 4) (p ∧ r → ¬q</string>
     <string name="task8">Atom in the logic of utterances is -</string>
@@ -78,7 +78,7 @@
     <string name="promt_3">False! This law can not be ∨, and there must be a logical objection.</string>
     <string name="promt_4">False! This is the rule of implication!</string>
     <string name="promt_5">False! Look at the sign ~.</string>
-    <string name="promt_6">False! Correct answer 2.</string>
+    <string name="promt_6">False! Correct answer 3.</string>
     <string name="promt_7">False! The first part of the statement should be in bracket!</string>
     <string name="promt_8">False! This is not an element and not a part.</string>
     <string name="promt_9">False! → changes to ∨.</string>

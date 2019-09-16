@@ -29,7 +29,7 @@ public class SixthLesson extends AppCompatActivity {
         check.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(ch2.isChecked()){
+                if(ch3.isChecked()){
                     intent = new Intent(SixthLesson.this, SeventhLesson.class);
                     startActivity(intent);
                 }

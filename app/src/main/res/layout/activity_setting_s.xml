@@ -4,8 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".setting.SettingS">
 
+
+    <Button
+        android:id="@+id/changeLang1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uaLang"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+    </Button>
+    <Space
+        android:id="@+id/spaceLang"
+        android:layout_above="@+id/changeLang1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+    </Space>
+
+    <Button
+        android:id="@+id/changeLang2"
+        android:layout_above="@+id/spaceLang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/engLang"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+    </Button>
 
 
 

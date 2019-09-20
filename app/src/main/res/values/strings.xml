@@ -155,4 +155,8 @@
     <string name="logicForAnd">Формула (P ∧ Q) істинна, якщо P та Q водночас істинні. В усіх інших випадках формула (P ∧ Q) хибна.</string>
     <string name="logicForNot">Формула (¬P) істинна, коли Р хибна, і хибна, коли Р істинна.</string>
     <string name="logicForIfelse">Формула (P → Q) хибна, якщо формула Р істинна, а Q - хибне. У всіх інших випадках вона істинна.</string>
+
+    <!--зміна мови-->
+    <string name="uaLang">Українська</string>
+    <string name="engLang">Англійська</string>
 </resources>

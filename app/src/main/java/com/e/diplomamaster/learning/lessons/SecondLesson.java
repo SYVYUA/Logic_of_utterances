@@ -66,7 +66,6 @@ public class SecondLesson extends AppCompatActivity {
             ClipData data = ClipData.newPlainText("","");
             View.DragShadowBuilder myShadowBuilder = new View.DragShadowBuilder(v);
             v.startDrag(data, myShadowBuilder,v,0);
-
             return true;
         }
     };
@@ -79,8 +78,6 @@ public class SecondLesson extends AppCompatActivity {
 
             switch (dragEvent){
                 case DragEvent.ACTION_DRAG_ENTERED:
-
-
                     break;
                 case DragEvent.ACTION_DRAG_EXITED:
                     break;

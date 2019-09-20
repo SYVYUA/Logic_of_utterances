@@ -157,4 +157,8 @@
     <string name="logicForAnd">Formula (P ∧ Q) is true, if P and Q are true at the same time. In all other cases, the formula (P ∧ Q) is false.</string>
     <string name="logicForNot">Formula (¬P) is true, when Р is false and false when Р is true.</string>
     <string name="logicForIfelse">Formula (P → Q) is false, if formula Р is true, and Q is false. In all other cases, the formula is true.</string>
+
+    <!--зміна мови-->
+    <string name="uaLang">Ukrainian</string>
+    <string name="engLang">English</string>
 </resources>

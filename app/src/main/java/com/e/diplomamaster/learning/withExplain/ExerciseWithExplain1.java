@@ -64,7 +64,6 @@ public class ExerciseWithExplain1 extends AppCompatActivity {
         falseRow55 = findViewById(R.id.falseRow55);
         falseRow56 =findViewById(R.id.falseRow56);
 
-
         animImage = findViewById(R.id.animImage);
         animImage.setBackgroundResource(R.drawable.question_mark);
         animationDrawable = (AnimationDrawable) animImage.getBackground();

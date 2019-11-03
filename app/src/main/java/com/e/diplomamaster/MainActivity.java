@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     Intent intent = null;
     Button suppBut;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

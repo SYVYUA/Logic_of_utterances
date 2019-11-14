@@ -143,6 +143,16 @@
     <string name="l_implication">→ - implication</string>
     <string name="l_definition">~ - definition</string>
 
+    <!--support formulas -->
+    <string name="l_commutative">1. Commutative property a) p ∨ q = q ∨ p; b) p ∧ q = q ∧ p</string>
+    <string name="l_associative">2. Associative property a) (p ∨ q) ∨ r = p ∨ (q ∨ r); b) (p ∧ q) ∧ r = p ∧ (q ∧ r)</string>
+    <string name="l_distributive">3. Distributive property a) p ∨ (q ∧ r) = (p ∨ q) ∧ (p ∨ r); b) p ∧ (q ∨ r) = (p ∧ q) ∨ (p ∧ r)</string>
+    <string name="l_noncontradiction">4. Law of noncontradiction p ∧ ¬p = F</string>
+    <string name="l_excluded">5. Law of excluded middle p ∨ ¬p = T</string>
+    <string name="l_double">6. The law of double negation !!p = p</string>
+    <string name="l_idempotence">7. Law of idempotence a) p ∨ p = p; b) p ∧ p = p</string>
+    <string name="l_absorption">8. Absorption law a) (p ∨ q) ∧ p = p; b) (p ∧ q) ∨ p = p</string>
+
     <!--link for the symbol-->
     <string name="list_of_logic_symbol">List of logic symbol: http://catcut.net/VwrB</string>
 

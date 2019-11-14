@@ -143,6 +143,16 @@
     <string name="l_disjunction">∨ - дизюнкція</string>
     <string name="l_implication">→ - імплікація</string>
     <string name="l_definition">~ - еквівалентність</string>
+    
+    <!--support formulas -->
+    <string name="l_commutative">1. Закони комутативності a) p ∨ q = q ∨ p; b) p ∧ q = q ∧ p</string>
+    <string name="l_associative">2. Закони асоціативності a) (p ∨ q) ∨ r = p ∨ (q ∨ r); b) (p ∧ q) ∧ r = p ∧ (q ∧ r)</string>
+    <string name="l_distributive">3. Закони дистрибутивності a) p ∨ (q ∧ r) = (p ∨ q) ∧ (p ∨ r); b) p ∧ (q ∨ r) = (p ∧ q) ∨ (p ∧ r)</string>
+    <string name="l_noncontradiction">4. Закон суперечності p ∧ ¬p = F</string>
+    <string name="l_excluded">5. Закон виключення третього p ∨ ¬p = T</string>
+    <string name="l_double">6. Закон подвійного заперечення The law of double negation !!p = p</string>
+    <string name="l_idempotence">7. Закони ідемпотентності a) p ∨ p = p; b) p ∧ p = p</string>
+    <string name="l_absorption">8. Закони поглинання a) (p ∨ q) ∧ p = p; b) (p ∧ q) ∨ p = p</string>
 
     <!--link for the symbol-->
     <string name="list_of_logic_symbol">Список логічних символів: http://catcut.net/TwrB</string>

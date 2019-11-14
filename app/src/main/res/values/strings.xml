@@ -136,6 +136,14 @@
     <string name="expForTable3">Тепер відповідно до теорми можна дійти висновку, що формула ¬Р логічно випливає з формул P → Q та ¬Q.</string>
     <string name="finish">До головного меню</string>
 
+
+    <!--explanation of symbols-->
+    <string name="l_negation">¬ - логічне заперечення</string>
+    <string name="l_conjunction">∧ - кон’юнкція</string>
+    <string name="l_disjunction">∨ - дизюнкція</string>
+    <string name="l_implication">→ - імплікація</string>
+    <string name="l_definition">~ - еквівалентність</string>
+
     <!--link for the symbol-->
     <string name="list_of_logic_symbol">Список логічних символів: http://catcut.net/TwrB</string>
     <!--Теорема 1-->

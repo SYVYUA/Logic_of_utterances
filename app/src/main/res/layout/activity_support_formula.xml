@@ -19,14 +19,56 @@
         android:layout_width="match_parent"
         android:layout_height="5dp" />
 
-    <ImageView
-        android:id="@+id/sup2"
+    <TextView
+        android:textColor="#000"
         android:layout_width="wrap_content"
-        android:layout_height="150dp"
-        android:background="@drawable/symbols"/>
+        android:layout_height="wrap_content"
+        android:text="@string/l_negation" />
+
     <Space
         android:layout_width="match_parent"
         android:layout_height="5dp" />
+
+    <TextView
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/l_conjunction" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/l_disjunction" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/l_implication" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/l_definition" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
     <TextView
         android:textColor="#000"
         android:layout_width="wrap_content"

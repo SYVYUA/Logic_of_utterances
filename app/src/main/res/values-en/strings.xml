@@ -178,4 +178,8 @@
     <!--зміна мови-->
     <string name="uaLang">Ukrainian</string>
     <string name="engLang">English</string>
+
+    <!--do not forget-->
+    <string name="secPractLes4">You have not selected anything.</string>
+    <string name="practLes3">To solve one more problem</string>
 </resources>

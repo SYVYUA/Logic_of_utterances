@@ -43,17 +43,17 @@ public class SecondPracticeLesson4 extends AppCompatActivity {
         final String button2String = "Вирішити ще одну задачу.";
 
         ad = new AlertDialog.Builder(context);
-        ad.setTitle(title);//заголовок віконця
-        ad.setMessage(message);//текс повідомлення
+        ad.setTitle(R.string.title_problem);//заголовок віконця
+        ad.setMessage(R.string.what_do);//текс повідомлення
 
-        ad.setPositiveButton(button1String, new DialogInterface.OnClickListener() {
+        ad.setPositiveButton(R.string.return_to_menu, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 intent = new Intent(SecondPracticeLesson4.this, MainActivity.class);
                 startActivity(intent);
             }
         });
-        ad.setNegativeButton(button2String, new DialogInterface.OnClickListener() {
+        ad.setNegativeButton(R.string.practLes3, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 intent = new Intent(SecondPracticeLesson4.this, PracticeLesson.class);
@@ -64,7 +64,7 @@ public class SecondPracticeLesson4 extends AppCompatActivity {
         ad.setOnCancelListener(new DialogInterface.OnCancelListener() {
             @Override
             public void onCancel(DialogInterface dialog) {
-                Toast.makeText(context, "Ви нічого не вибрали", Toast.LENGTH_LONG).show();
+                Toast.makeText(context, R.string.secPractLes4, Toast.LENGTH_LONG).show();
             }
         });
 

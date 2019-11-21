@@ -18,7 +18,7 @@
     <string name="logicAND">Логічне і -</string>
     <string name="logicOR">Логічне або -</string>
     <string name="logicIF">Якщо,..то -</string>
-    <string name="task2">Перетягніть знаки стосовно їхнім значенням</string>
+    <string name="task2">Встановіть відповідність шляхом перетягування</string>
     <string name="task3">Вкажіть формулу закону суперечності</string>
     <string name="task3var">1) p ∧ ¬p = F "\n" 2) p ∨ ¬p = F "\n" 3) p ∨ q = q ∨ p "\n" 4)p ∧ p = p</string>
     <string name="task4">p → q = ¬p ∨ q це</string>
@@ -73,7 +73,7 @@
 
     <!--Для вспливаючих вікон-->
     <string name="promt_1">Помилка! Висловлюваннями можуть бути тільки розповідні речення.</string>
-    <string name="promt_2">Помилка! Зробіть правильну відповідність.</string>
+    <string name="promt_2">Помилка! Встановіть правильну відповідність.</string>
     <string name="promt_3">Помилка! В цьому законі не може бути ∨, а також повинно бути логічне заперечення.</string>
     <string name="promt_4">Помилка! Це, правило імплікації!</string>
     <string name="promt_5">Помилка! Дивись знак ~.</string>
@@ -82,7 +82,7 @@
     <string name="promt_8">Помилка! Це не елемент і не частина.</string>
     <string name="promt_9">Помилка! → змінюється на ∨.</string>
     <string name="promt_10">Помилка! Дивись на перші два знаки!</string>
-    <string name="for_drag_elem">Помилка! Зробіть правильну відповідність.</string>
+    <string name="for_drag_elem">Помилка! Встановіть правильну відповідність.</string>
     <string name="for_drag_elem2">Помилка! Зробіть правильний вибір.</string>
     <!--Для вибору задач-->
     <string name="practProblem2">Практичні завдання з поясненням</string>
@@ -95,8 +95,8 @@
     <!--Для переходу до нових завдань і меню-->
     <string name="not_choise">Ви нічого не вибрали</string>
     <string name="return_to_menu">Повернутися до головного меню.</string>
-    <string name="what_do">Що роибмо далі?</string>
-    <string name="title_test">Вітаю. Ви розв’язали тести!</string>
+    <string name="what_do">Що робимо далі?</string>
+    <string name="title_test">Вітаю. Ви виконали тести!</string>
     <string name="title_problem">Вітаю. Ви розв’язали задачу!</string>
 
     <!--Задачі з поясненням-->
@@ -125,7 +125,7 @@
     <string name="p_r1">P → R</string>
     <string name="bigt">T</string>
     <string name="bigf">F</string>
-    <string name="explainForTable">Із таблиці видно, що є лише одна інтерпретація, у якій (P → Q) ∧ ¬Q виконуєтьсяб а саме P = F, Q = F; у цій інтерпритації формула ¬P також виконується. Отже, за означенням формула ¬Р - логічний наслідок формул P → Q та ¬Q</string>
+    <string name="explainForTable">Із таблиці видно, що є лише одна інтерпретація, у якій (P → Q) ∧ ¬Q виконується, а саме P = F, Q = F; у цій інтерпритації формула ¬P також виконується. Отже, за означенням формула ¬Р - логічний наслідок формул P → Q та ¬Q</string>
     <string name="method2">Скористаємося теоремою. Доведемо що формула (F1 ∧ F2) → G загальнозначуща. Для цього побудуємо таблицю  для формули (F1 ∧ F2) → G = ((P → Q) ∧ ¬Q) → ¬P.</string>
     <string name="method2exp">Спосіб 2.</string>
     <string name="forTable2">((P → Q) ∧ ¬Q) → ¬P</string>
@@ -177,4 +177,10 @@
     <!--зміна мови-->
     <string name="uaLang">Українська</string>
     <string name="engLang">Англійська</string>
+
+
+    <!--do not forget-->
+    <string name="secPractLes4">Ви нічого не вибрали</string>
+    <string name="practLes3">Розв’язати ще одну задачу</string>
+
 </resources>

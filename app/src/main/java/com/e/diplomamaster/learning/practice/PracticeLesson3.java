@@ -55,7 +55,7 @@ public class PracticeLesson3 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        ad.setNegativeButton(button2String, new DialogInterface.OnClickListener() {
+        ad.setNegativeButton(R.string.practLes3, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 intent = new Intent(PracticeLesson3.this, SecondPracticeLesson1.class);
